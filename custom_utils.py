@@ -1,3 +1,6 @@
+import networkx as nx
+import numpy as np
+import matplotlib.pyplot as plt
 import student_utils as su
 
 class Graph:
@@ -9,6 +12,14 @@ class Graph:
         self.houses = data[3]
         self.start = data[4]
         self.G = data[5]
+        nparray = np.matrix(data[5])
+        nparray[nparray == 'x'] = 0.0
+        self.nxG = nx.from_numpy_matrix(nparray.astype(float))
+        #self.visualize()
+
+    def visualize(self):
+        nx.draw(self.nxG, with_labels=True)
+        plt.show()
     
     def edge_list(self):
         return su.adjacency_matrix_to_edge_list(self.G)
@@ -16,11 +27,14 @@ class Graph:
     def cost(self, car_cycle, dropoff_mapping):
         return su.cost_of_solution(self.G, car_cycle, dropoff_mapping)
 
+    def index(self, vertex):
+        return self.locations.index(vertex)
+
     def __str__(self):
         data = [self.num_locations, self.num_houses, self.locations, self.houses, self.start]
         return "\n".join([str(d) for d in data])
 
-def output(self, G, path, dropoffs):
+def output(G, path, dropoffs):
     if path is None or len(dropoffs) == 0:
         raise Exception("<-- CUSTOM ERROR --> Invalid solver output.")
     indexPath = su.convert_locations_to_indices(path, G.locations)

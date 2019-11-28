@@ -7,16 +7,20 @@ class Footsteps:
         # Graph(len(list_of_locations), len(list_of_homes), list_of_locations, list_of_homes, starting_car_location, adjacency_matrix) 
         self.graph = graph
         self.G = self.graph.G
+        self.nxG = self.graph.nxG
         self.path = None
         self.dropoffs = {}
 
     def solve(self):
         "*** YOUR CODE HERE ***"
-        return output(G, self.path, self.dropoffs)
+        self.feet()
+        return output(self.G, self.path, self.dropoffs)
 
     ### Helper Functions ###
     # 1) Return a dictionary F where the keys represent the edge(u,v) and values represent the frequency they are walked on.
     def feet(self):
+        startIndex = self.graph.index(self.graph.start)
+        res = nx.single_source_dijkstra_path(self.nxG, 0)
         pass
 
     # 2) Remove all entries with values < 2.
