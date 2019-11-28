@@ -6,6 +6,10 @@ import argparse
 import utils
 
 from student_utils import *
+from custom_utils import *
+from Footsteps import *
+from Christofides import *
+
 """
 ======================================================================
   Complete the following function.
@@ -25,7 +29,11 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         A dictionary mapping drop-off location to a list of homes of TAs that got off at that particular location
         NOTE: both outputs should be in terms of indices not the names of the locations themselves
     """
-    pass
+    g = Graph([len(list_of_locations), len(list_of_homes), list_of_locations, list_of_homes, starting_car_location, adjacency_matrix])
+    f = Footsteps(g).solve()
+    c = Christofides(g).solve()
+    print(g)
+    return f #choose which one to return
 
 """
 ======================================================================
