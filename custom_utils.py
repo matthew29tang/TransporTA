@@ -9,9 +9,11 @@ class Graph:
         self.num_locations = data[0]
         self.num_houses = data[1]
         self.locations = data[2]
-        self.houses = data[3]
-        self.start = data[4]
+        self.houses = su.convert_locations_to_indices(data[3], self.locations)
+        self.start = self.index(data[4])
         self.G = data[5]
+        self.edge_list = self._edgeList()
+        self.adjacency_list = self._adjacencyList()
         nparray = np.matrix(data[5])
         nparray[nparray == 'x'] = 0.0
         self.nxG = nx.from_numpy_matrix(nparray.astype(float))
@@ -21,14 +23,31 @@ class Graph:
         nx.draw(self.nxG, with_labels=True)
         plt.show()
     
-    def edge_list(self):
-        return su.adjacency_matrix_to_edge_list(self.G)
-    
     def cost(self, car_cycle, dropoff_mapping):
         return su.cost_of_solution(self.G, car_cycle, dropoff_mapping)
 
     def index(self, vertex):
         return self.locations.index(vertex)
+
+    def _edgeList(self):
+        adjacency_matrix = self.G
+        edge_list = []
+        for i in range(len(adjacency_matrix)):
+            for j in range(len(adjacency_matrix[0])):
+                if adjacency_matrix[i][j] != 'x':
+                    edge_list.append((i, j))
+        return edge_list
+
+    def _adjacencyList(self):
+        adjacency_matrix = self.G
+        adjacencyList = []
+        for i in range(len(adjacency_matrix)):
+            temp = []
+            for j in range(len(adjacency_matrix[0])):
+                if adjacency_matrix[i][j] != 'x':
+                    temp.append((i, j))
+            adjacencyList.append(temp)
+        return adjacencyList
 
     def __str__(self):
         data = [self.num_locations, self.num_houses, self.locations, self.houses, self.start]
@@ -46,3 +65,34 @@ def output(G, path, dropoffs):
             raise Exception("<-- CUSTOM ERROR --> Invalid location in output.")
         indexDropoffs[k] = v
     return indexPath, indexDropoffs
+
+def smartOutput(G, path, allPairsLengths, homes):
+    #if path is None or len(dropoffs) == 0:
+    #    raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
+    dropoffs = {}
+    pathSet = set(path)
+    for h in homes:
+        if h in pathSet:
+            _dictAdd(dropoffs, h, h)
+            continue
+        bestHome = None
+        bestHomeDist = float('inf')
+        shortestPaths = allPairsLengths[h][1]
+        for v in shortestPaths:
+            if shortestPaths[v] < bestHomeDist and v in pathSet:
+                bestHome = v
+                bestHomeDist = shortestPaths[v]
+        _dictAdd(dropoffs, bestHome, h) # Drop off person who lives at h at closest vertex on path
+    return path, dropoffs
+
+def baselineOutput(graph):
+    path = [graph.start]
+    dropoffs = {}
+    dropoffs[graph.start] = graph.houses
+    return path, dropoffs
+
+def _dictAdd(d, key, value):
+    if d.get(key) is None:
+        d[key] = [value]
+    else:
+        d[key].append(value)

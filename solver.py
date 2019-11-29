@@ -31,8 +31,7 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
     """
     g = Graph([len(list_of_locations), len(list_of_homes), list_of_locations, list_of_homes, starting_car_location, adjacency_matrix])
     f = Footsteps(g).solve()
-    c = Christofides(g).solve()
-    print(g)
+    #c = Christofides(g).solve()
     return f #choose which one to return
 
 """

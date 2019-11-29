@@ -12,6 +12,6 @@ class Christofides:
 
     def solve(self):
         "*** YOUR CODE HERE ***"
-        return output(G, self.path, self.dropoffs)
+        return output(self.G, self.path, self.dropoffs)
 
     ### Helper Functions ###
