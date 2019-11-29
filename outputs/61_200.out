@@ -1,11 +1,11 @@
-Acton Carlsbad Bellflower Bolinas Angwin Atascadero Bonsall Clyde Boronda Buttonwillow Bowles Buttonwillow Bystrom Anaheim Calistoga Beckwourth Azusa Brea Bishop Carson Antioch Bluewater Cerritos Bell Alpaugh Benicia Beaumont Calabasas Brentwood Biola Arbuckle Blythe Danville Armona Berkeley Alameda Carrick Bonita Belvedere Arcadia Burbank Camarillo Burbank Calimesa Barstow Capitola Avery Chowchilla Avenal Fruitdale Byron Biggs Brawley Alhambra Cambria Almanor Cambria Cayucos Arvin Bishop Clearlake Ashland Covelo Cartago Bodfish Cotati Boron Cotati August Castroville Fontana Alpine Columbia Carpinteria Columbia Avalon Alamo Banning Dinuba Alturas Florin Calexico Blairsden Atherton Blairsden Calexico Anderson Caribou Folsom Bayview Albany Escondido Atwater Escondido Fruitdale Dixon Broadmoor Amesti Cabazon Crockett Calipatria Crockett Campbell Arnold Bradley Caruthers Freedom Carmichael Duarte Burney Bakersfield Bradbury Adelanto Clayton Arcata Belden Alhambra Burlingame Ducor Bloomington Ceres Auburn Farmersville Covelo Foresthill Altadena Cloverdale Bootjack Aromas Bystrom Aptos Corona Auberry Corona Dunsmuir Anaheim Brisbane Belmont Arcadia Calwa Fortuna Diablo Artesia Fresno August Castroville Fontana Canyondam Encinitas Carlsbad Acton
-100
+Acton Carlsbad Bellflower Bolinas Angwin Atascadero Bonsall Clyde Boronda Buttonwillow Bystrom Anaheim Calistoga Beckwourth Azusa Brea Bishop Carson Antioch Bluewater Cerritos Bell Alpaugh Benicia Beaumont Calabasas Brentwood Biola Arbuckle Blythe Danville Armona Berkeley Alameda Carrick Bonita Belvedere Arcadia Burbank Calimesa Barstow Capitola Avery Chowchilla Avenal Fruitdale Byron Biggs Brawley Alhambra Cambria Cayucos Arvin Bishop Clearlake Ashland Covelo Cartago Bodfish Cotati August Castroville Fontana Alpine Columbia Avalon Alamo Banning Dinuba Alturas Florin Calexico Anderson Caribou Folsom Bayview Albany Escondido Fruitdale Dixon Broadmoor Amesti Cabazon Crockett Campbell Arnold Bradley Caruthers Freedom Carmichael Duarte Burney Bakersfield Bradbury Adelanto Clayton Arcata Belden Alhambra Burlingame Ducor Bloomington Ceres Auburn Farmersville Covelo Foresthill Altadena Cloverdale Bootjack Aromas Bystrom Aptos Corona Dunsmuir Anaheim Brisbane Belmont Arcadia Calwa Fortuna Diablo Artesia Fresno August Castroville Fontana Canyondam Encinitas Carlsbad Acton
+95
 Adelanto Adelanto
 Alameda Alameda
 Alamo Alamo
 Albany Albany
 Alhambra Alhambra
-Almanor Almanor
+Cambria Almanor Cambria
 Alpaugh Alpaugh
 Alpine Alpine
 Altadena Altadena
@@ -26,9 +26,9 @@ Artesia Artesia
 Arvin Arvin
 Ashland Ashland
 Atascadero Atascadero
-Atherton Atherton
-Atwater Atwater
-Auberry Auberry
+Calexico Atherton Blairsden Calexico
+Escondido Atwater
+Corona Auberry
 Auburn Auburn
 August August
 Avalon Avalon
@@ -51,7 +51,6 @@ Berkeley Berkeley
 Biggs Biggs
 Biola Biola
 Bishop Bishop
-Blairsden Blairsden
 Bloomington Bloomington
 Bluewater Bluewater
 Blythe Blythe
@@ -60,9 +59,9 @@ Bolinas Bolinas
 Bonita Bonita
 Bonsall Bonsall
 Bootjack Bootjack
-Boron Boron
+Cotati Boron
 Boronda Boronda
-Bowles Bowles
+Buttonwillow Bowles Buttonwillow
 Bradbury Bradbury
 Bradley Bradley
 Brawley Brawley
@@ -70,28 +69,24 @@ Brea Brea
 Brentwood Brentwood
 Brisbane Brisbane
 Broadmoor Broadmoor
-Burbank Burbank
+Burbank Burbank Camarillo
 Burlingame Burlingame
 Burney Burney
-Buttonwillow Buttonwillow
 Byron Byron
 Bystrom Bystrom
 Cabazon Cabazon
 Calabasas Calabasas
-Calexico Calexico
 Calimesa Calimesa
-Calipatria Calipatria
+Crockett Calipatria
 Calistoga Calistoga
 Calwa Calwa
-Camarillo Camarillo
-Cambria Cambria
 Campbell Campbell
 Canyondam Canyondam
 Capitola Capitola
 Caribou Caribou
 Carlsbad Carlsbad
 Carmichael Carmichael
-Carpinteria Carpinteria
+Columbia Carpinteria
 Carrick Carrick
 Carson Carson
 Cartago Cartago

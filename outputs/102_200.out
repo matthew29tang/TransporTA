@@ -1,5 +1,5 @@
-FacultyClub EarthquakeLibrary Morrison Sproul BanwayBuilding BerkeleyLawLibrary CITRIS MathLibrary Koshland MSRI LawSchool Boalt ArtHistoryLibrary Durham HaasClubhouse Unit3 BerkeleyWayWest LatinAmerican EngineeringLibrary FoundersRock SEAsianLibrary Warren UniversityHouse CesarChavez MartinezCommons PacificFilmArchive Cheit StowPlaza HearstGreekTheatre InternationalHouse Davis FoxCottage SimpsonCenter Latimer SummerSession MaxwellField VisualCenter AndersenAuditorium Soda CareerCenter Wheeler Wellman EnergyBuilding IdaHouse Stephens Birge OBrien LeConte Campbell IRLE SpringerGateway AlumniHouse Hildebrand Mulford BancroftDance Giauque Spieker MLK BancroftLibrary Library BancroftLibrary SutardjaDai FPF HealthServices EastAsianLibrary PhysicsLibrary Evans Pimentel HearstGym Pimentel NorthGate EarthLibrary Underhill Etcheverry SproulPlaza LawrenceofScience StudentUnion AnthropologyLibrary NewspapersLibrary HearstFieldAnnex McCone OptometryLibrary Jacobs BioscienceLibrary HearstFountain Stanley VLSB Senior EthnicLibrary MelvinLaboratory Investigative MediaCenter UpperHearstParking DonnerLaboratory Hilgard TAAP Manville SocialLibrary BrainImagingCenter WooHonFai Bechtel Bowles AquaticCenter Durant FacultyClub
-100
+FacultyClub EarthquakeLibrary Morrison Sproul BanwayBuilding BerkeleyLawLibrary CITRIS MathLibrary Koshland MSRI LawSchool Boalt ArtHistoryLibrary Durham HaasClubhouse Unit3 BerkeleyWayWest LatinAmerican EngineeringLibrary FoundersRock SEAsianLibrary Warren UniversityHouse CesarChavez MartinezCommons PacificFilmArchive Cheit StowPlaza HearstGreekTheatre InternationalHouse Davis FoxCottage SimpsonCenter Latimer SummerSession MaxwellField VisualCenter AndersenAuditorium Soda CareerCenter Wheeler Wellman EnergyBuilding IdaHouse Stephens Birge OBrien LeConte Campbell IRLE SpringerGateway AlumniHouse Hildebrand Mulford BancroftDance Giauque Spieker MLK BancroftLibrary SutardjaDai FPF HealthServices EastAsianLibrary PhysicsLibrary Evans Pimentel NorthGate EarthLibrary Underhill Etcheverry SproulPlaza LawrenceofScience StudentUnion AnthropologyLibrary NewspapersLibrary HearstFieldAnnex McCone OptometryLibrary Jacobs BioscienceLibrary HearstFountain Stanley VLSB Senior EthnicLibrary MelvinLaboratory Investigative MediaCenter UpperHearstParking DonnerLaboratory Hilgard TAAP Manville SocialLibrary BrainImagingCenter WooHonFai Bechtel Bowles AquaticCenter Durant FacultyClub
+98
 FacultyClub FacultyClub
 BioscienceLibrary BioscienceLibrary
 SutardjaDai SutardjaDai
@@ -10,13 +10,12 @@ StudentUnion StudentUnion
 EarthquakeLibrary EarthquakeLibrary
 UniversityHouse UniversityHouse
 LawrenceofScience LawrenceofScience
-Pimentel Pimentel
+Pimentel Pimentel HearstGym
 Mulford Mulford
 CareerCenter CareerCenter
-HearstGym HearstGym
 Durham Durham
 OBrien OBrien
-Library Library
+BancroftLibrary Library BancroftLibrary
 Spieker Spieker
 FPF FPF
 PacificFilmArchive PacificFilmArchive
@@ -61,7 +60,6 @@ MathLibrary MathLibrary
 AquaticCenter AquaticCenter
 UpperHearstParking UpperHearstParking
 Evans Evans
-BancroftLibrary BancroftLibrary
 HearstFieldAnnex HearstFieldAnnex
 HearstFountain HearstFountain
 BerkeleyLawLibrary BerkeleyLawLibrary

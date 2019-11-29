@@ -27,10 +27,18 @@ class Stack:
     def pop(self):
         "Pop the most recently pushed item from the stack"
         return self.list.pop()
+    
+    def peek(self):
+        "Peek at the most recently pushed item from the stack"
+        return self.list[-1]
+    
+    def doublePeek(self):
+        "Peek at the 2nd most recently pushed item from the stack"
+        return self.list[-2]
 
-    def isEmpty(self):
+    def size(self):
         "Returns true if the stack is empty"
-        return len(self.list) == 0
+        return len(self.list)
 
 class Queue:
     "A container with a first-in-first-out (FIFO) queuing policy."

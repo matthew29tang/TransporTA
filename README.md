@@ -2,4 +2,9 @@
 
 Matthew Tang, Christianna Xu: Group 117
 
-Usage: `py .\solver.py --all small_inputs`
+## Usage 
+* Generate outputs: `py .\solver.py --all ./inputs ./outputs`
+* Autograder: `py .\autograder.py --all inputs outputs`
+
+Scores:
+Naive Footsteps: 40.7345

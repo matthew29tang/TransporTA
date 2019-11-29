@@ -5,10 +5,17 @@ sys.path.append('../..')
 import argparse
 import utils
 
+
 from student_utils import *
 from custom_utils import *
 from Footsteps import *
 from Christofides import *
+
+# Set true for multi-core enhancement.
+import multiprocessing
+from multiprocessing import Pool
+MULTICORE = True
+num_thread = multiprocessing.cpu_count()
 
 """
 ======================================================================
@@ -78,10 +85,22 @@ def solve_from_file(input_file, output_directory, params=[]):
 
 
 def solve_all(input_directory, output_directory, params=[]):
+    
     input_files = utils.get_files_with_extension(input_directory, 'in')
 
-    for input_file in input_files:
-        solve_from_file(input_file, output_directory, params=params)
+    if not MULTICORE:
+        for input_file in input_files:
+            solve_from_file(input_file, output_directory, params=params)
+    else:
+        print("MULTICORE IN PROCESS. DO NOT CONTROL-C.")
+        tasks = []
+        for input_file in input_files:
+            tasks.append((input_file, output_directory, params))
+        pool = Pool(num_thread - 1)
+        results = [pool.apply_async(solve_from_file, t) for t in tasks]
+        pool.close()
+        pool.join()
+        
 
 
 if __name__=="__main__":

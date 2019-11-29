@@ -2,6 +2,7 @@ import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 import student_utils as su
+from data_structures import *
 
 class Graph:
     def __init__(self, data):
@@ -70,7 +71,18 @@ def smartOutput(G, path, allPairsLengths, homes):
     #if path is None or len(dropoffs) == 0:
     #    raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
     dropoffs = {}
+    s = Stack()
+    for v in path:
+        if s.size() < 2:
+            s.push(v)
+            continue
+        if s.doublePeek() == v:
+            s.pop()
+        else:
+            s.push(v)
+    path = s.list
     pathSet = set(path)
+    
     for h in homes:
         if h in pathSet:
             _dictAdd(dropoffs, h, h)

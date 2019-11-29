@@ -1,13 +1,13 @@
-Hayward SantaClara Hayward Asheville Durham Asheville CedarRapids Memphis Winston Hickory Tyler Hickory HuntingtonBeach Hickory Kennewick PuntaGorda Omaha Topeka Montgomery ThousandOaks Montgomery SantaCruz Tucson Bradenton Huntsville Yonkers Waterloo Springdale McHenry Torrance PalmBay Modesto Hampton RichmondCounty Charlotte BelAir Monroe BelAir York NewBedford Aurora Bakersfield Aurora Tucson Washington LakeCharles Newark Burbank Chicago Burbank Danbury Atlanta Abilene GrandRapids Abilene Downey Rochester AtlanticCity SaintPaul SimiValley NewBedford Waco Harlingen SaintLouis Medford Barnstable Bryan Deltona Durham Bloomington Newark NewYorkCity York BelAir McAllen KansasCity Huntsville Bradenton Tucson Winston Murrieta Tampa Murrieta Winston Memphis CedarRapids Hayward
-50
+Hayward Asheville CedarRapids Memphis Winston Hickory Kennewick PuntaGorda Omaha Topeka Montgomery SantaCruz Tucson Bradenton Huntsville Yonkers Waterloo Springdale McHenry Torrance PalmBay Modesto Hampton RichmondCounty Charlotte BelAir York NewBedford Aurora Tucson Washington LakeCharles Newark Burbank Danbury Atlanta Abilene Downey Rochester AtlanticCity SaintPaul SimiValley NewBedford Waco Harlingen SaintLouis Medford Barnstable Bryan Deltona Durham Bloomington Newark NewYorkCity York BelAir McAllen KansasCity Huntsville Bradenton Tucson Winston Memphis CedarRapids Hayward
+45
 PuntaGorda PuntaGorda
-Tyler Tyler
-ThousandOaks ThousandOaks
+Hickory Tyler HuntingtonBeach Hickory
+Montgomery ThousandOaks
 PalmBay PalmBay
 Tucson Tucson
 Barnstable Barnstable
 Yonkers Yonkers
-Burbank Burbank
+Burbank Burbank Chicago
 McHenry McHenry
 Harlingen Harlingen
 Charlotte Charlotte
@@ -18,24 +18,20 @@ Danbury Danbury
 Downey Downey
 Asheville Asheville
 McAllen McAllen
-Chicago Chicago
-GrandRapids GrandRapids
-BelAir BelAir
-Aurora Aurora
+Abilene GrandRapids
+BelAir BelAir Monroe
+Aurora Aurora Bakersfield
 CedarRapids CedarRapids
 LakeCharles LakeCharles
 Bradenton Bradenton
 RichmondCounty RichmondCounty
 SantaCruz SantaCruz
 Modesto Modesto
-HuntingtonBeach HuntingtonBeach
 Huntsville Huntsville
 NewYorkCity NewYorkCity
-Tampa Tampa
-Monroe Monroe
-Bakersfield Bakersfield
+Winston Tampa
 Springdale Springdale
-SantaClara SantaClara
+Hayward SantaClara
 Atlanta Atlanta
 Durham Durham
 Newark Newark
@@ -46,7 +42,6 @@ Bloomington Bloomington
 NewBedford NewBedford
 SaintPaul SaintPaul
 York York
-Hickory Hickory
 Waco Waco
 Waterloo Waterloo
 Hampton Hampton
