@@ -1,16 +1,15 @@
-FacultyClub Durham HealthServices BanwayBuilding TAAP Warren PacificFilmArchive TAAP MathLibrary EarthquakeLibrary FacultyClub HealthServices VLSB BerkeleyLawLibrary MartinezCommons NorthGate OptometryLibrary Library MSRI EngineeringLibrary Boalt Latimer Mulford InternationalHouse McCone Davis FoxCottage LatinAmerican Manville Unit3 BerkeleyWayWest Jacobs EastAsianLibrary Pimentel Jacobs Unit3 HearstGym Davis EnergyBuilding Bechtel BrainImagingCenter EnergyBuilding McCone Mulford Evans BancroftDance NewspapersLibrary LawrenceofScience Evans Spieker BancroftDance Durant ArtHistoryLibrary IdaHouse MediaCenter CITRIS MLK Hildebrand SEAsianLibrary Senior SpringerGateway DonnerLaboratory Hildebrand SocialLibrary Etcheverry MLK VisualCenter AlumniHouse Stanley Soda AlumniHouse MediaCenter LeConte LawSchool HearstGreekTheatre Hilgard BioscienceLibrary Stanley Bowles Wellman MaxwellField WooHonFai Wellman Birge FPF SimpsonCenter Sproul AquaticCenter AnthropologyLibrary Sproul HearstFieldAnnex EthnicLibrary HearstFountain StowPlaza CareerCenter HearstFountain UpperHearstParking BancroftLibrary AndersenAuditorium Stephens Morrison UpperHearstParking Underhill FPF Campbell MelvinLaboratory Koshland OBrien CesarChavez Giauque SutardjaDai StudentUnion EarthLibrary CesarChavez FoundersRock SproulPlaza UniversityHouse NorthGate PhysicsLibrary MartinezCommons Investigative Wheeler Cheit IRLE
-50
-FacultyClub FacultyClub
+FacultyClub Durham HealthServices VLSB BerkeleyLawLibrary MartinezCommons Giauque SutardjaDai StudentUnion EarthLibrary CesarChavez OBrien FPF Underhill UpperHearstParking BancroftLibrary AndersenAuditorium Stephens Morrison UpperHearstParking HearstFountain StowPlaza CareerCenter HearstFountain EthnicLibrary HearstFieldAnnex Sproul SimpsonCenter AquaticCenter AnthropologyLibrary Sproul Spieker Evans Mulford McCone Davis FoxCottage LatinAmerican Manville Unit3 BerkeleyWayWest Jacobs Unit3 HearstGym Davis EnergyBuilding Bechtel BrainImagingCenter EnergyBuilding McCone Mulford Latimer Boalt EngineeringLibrary MSRI BancroftDance NewspapersLibrary LawrenceofScience Evans BancroftDance Durant ArtHistoryLibrary IdaHouse MediaCenter AlumniHouse Stanley LeConte MediaCenter AlumniHouse VisualCenter MLK CITRIS Hildebrand SEAsianLibrary Senior SpringerGateway DonnerLaboratory Hildebrand SocialLibrary Etcheverry MLK LawSchool HearstGreekTheatre Hilgard BioscienceLibrary Stanley Bowles Wellman MaxwellField WooHonFai Wellman Birge FPF Campbell MelvinLaboratory Koshland OBrien CesarChavez FoundersRock SproulPlaza UniversityHouse NorthGate OptometryLibrary Library NorthGate PhysicsLibrary MartinezCommons Investigative HealthServices BanwayBuilding TAAP Warren PacificFilmArchive TAAP MathLibrary FacultyClub Wheeler Cheit IRLE FacultyClub
+48
+FacultyClub FacultyClub EarthquakeLibrary
 BioscienceLibrary BioscienceLibrary
 SutardjaDai SutardjaDai
 Etcheverry Etcheverry
 SproulPlaza SproulPlaza
 Hilgard Hilgard
 StudentUnion StudentUnion
-EarthquakeLibrary EarthquakeLibrary
 UniversityHouse UniversityHouse
 LawrenceofScience LawrenceofScience
-Pimentel Pimentel
+Jacobs Pimentel Jacobs
 Mulford Mulford
 CareerCenter CareerCenter
 HearstGym HearstGym
@@ -26,7 +25,6 @@ Wheeler Wheeler
 Cheit Cheit
 Manville Manville
 Koshland Koshland
-Jacobs Jacobs
 Investigative Investigative
 EarthLibrary EarthLibrary
 EnergyBuilding EnergyBuilding
@@ -39,7 +37,7 @@ AndersenAuditorium AndersenAuditorium
 Unit3 Unit3
 AnthropologyLibrary AnthropologyLibrary
 Stephens Stephens
-InternationalHouse InternationalHouse
+McCone InternationalHouse
 OptometryLibrary OptometryLibrary
 IRLE IRLE
 SpringerGateway SpringerGateway

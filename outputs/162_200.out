@@ -1,15 +1,14 @@
-Aberdeen Appleton Fayetteville Madison Houma Fayetteville Brownsville Barnstable Kenosha Jacksonville Charlotte AtlanticCity Jacksonville Gilbert Kenosha Dayton Augusta Boulder Baltimore BonitaSprings Charleston Concord Clearwater Danbury Evansville Clearwater Chicago McAllen Bridgeport Bradenton Clarksville Dallas LosAngeles Jefferson ElkGrove Irvine Fontana Harrisburg ElkGrove Honolulu Cambridge HavredeGrace Burbank Cambridge Gastonia Fremont Hollywood Buffalo Cambridge BatonRouge Jefferson Marysville Columbus Dallas Aurora Lincoln Lakeland Bellevue Independence ClarkeCounty Aurora Hartford Hayward Baltimore Charleston Fargo Arvada Erie Athens GrandPrairie Arlington Harlingen Knoxville Hemet Indianapolis Burlington Duluth Kailua GrandRapids Garland Burlington Chattanooga LakeCharles DaytonaBeach Lowell FortSmith FortWaltonBeach Kissimmee FortCollins Harlingen CostaMesa FortCollins Elkhart Champaign GulfportBiloxi Cincinnati FortLauderdale CorpusChristi Marina AnnArbor CorpusChristi Bakersfield Cincinnati FortCollins Akron Elizabeth Albuquerque Davenport DaytonaBeach Arvada Hickory Inglewood Lansing DesMoines GreenBay Boston Deltona ChulaVista Louisville Lubbock Howell Flint DalyCity Houston Bethlehem Beaumont Houston Fresno Kalamazoo Hesperia Escondido LittleRock Huntington Greensboro Abilene LittleRock BelAir Escondido Asheville Fitchburg Durham DalyCity Howell ChulaVista ColoradoSprings Bloomington Boston Chandler Macon Albany Lorain CedarRapids Bryan HighPoint Hialeah Chesapeake Billings Hialeah Bryan Albany Kaneohe Fairfield Lancaster Anchorage Killeen LongBeach Gainesville Killeen LasCruces Joliet Fairfield FortWayne Layton LasVegas Kennewick Denver Layton Bloomington JohnsonCity Antioch Kennewick Anaheim Greenville LasVegas Cleveland Austin LasVegas Downey Carrollton Fullerton JerseyCity Lexington Lakewood Lafayette Hampton Frederick Carrollton Laredo Jackson CollegeStation ElPaso Boise CollegeStation GardenGrove Laredo CoralSprings Birmingham Fullerton KansasCity FortWorth Berkeley ElMonte DavidsonCounty Canton KansasCity CapeCoral Atlanta Manchester HuntingtonBeach Huntsville Bremerton Henderson HuntingtonBeach BoiseCity Eugene Grayslake Denton Bremerton Allentown Corona Detroit Lacey Lewisville Cary Irving Lacey Brighton Corona AppleValley Kissimmee Amarillo Alexandria Hagerstown CathedralCity Leominster Arvada FortSmith Akron Arvada Glendale Columbia Barnstable
-100
+Aberdeen Barnstable Kenosha Gilbert Jacksonville Charlotte AtlanticCity Jacksonville Augusta Dayton Kenosha Barnstable Brownsville Fayetteville Madison Houma Fayetteville Appleton GulfportBiloxi Cincinnati Hemet Knoxville Harlingen FortCollins Elkhart Champaign FortCollins Cincinnati Bakersfield CorpusChristi FortLauderdale LakeCharles Lowell DaytonaBeach LakeCharles Chattanooga Burlington Garland GrandRapids Indianapolis Burlington ElMonte Berkeley FortWorth KansasCity Fullerton JerseyCity Lexington Jackson Laredo GardenGrove CollegeStation ElPaso Boise CollegeStation Canton KansasCity CapeCoral Fullerton Carrollton Laredo CoralSprings Birmingham Laredo Lakewood Lafayette Hampton Frederick Carrollton Downey LasVegas Kennewick Antioch Anaheim Kennewick Greenville LasVegas Cleveland Austin LasVegas Layton FortWayne Fairfield Lancaster Anchorage Killeen LongBeach Gainesville Killeen LasCruces Joliet Fairfield Kaneohe Albany Bryan Hialeah HighPoint Billings Chesapeake Hialeah Lorain Albany Bryan CedarRapids JohnsonCity Bloomington ColoradoSprings ChulaVista Howell Flint DalyCity Houston Beaumont Houston Fresno Greensboro Huntington LittleRock BelAir Escondido Asheville Fitchburg Durham DalyCity Flint Howell Lubbock Louisville Deltona ChulaVista ColoradoSprings Chandler Boston Bloomington Layton Bloomington Boston GreenBay DesMoines Lansing Inglewood Hickory Arvada Fargo Charleston Baltimore Lincoln Aurora Dallas LosAngeles Jefferson Cambridge Gastonia Fremont Kailua Irvine ElkGrove Harrisburg ElkGrove Honolulu Cambridge Burbank HavredeGrace Hollywood Buffalo Cambridge BatonRouge Jefferson Marysville Columbus Dallas Clarksville Bradenton Bridgeport McAllen Chicago Clearwater Evansville Concord Boulder Baltimore BonitaSprings Charleston Baltimore Hayward Hartford Aurora ClarkeCounty Independence Bellevue Lakeland Albuquerque Davenport DaytonaBeach Arvada Erie Athens Arvada Elizabeth Akron FortCollins CostaMesa Hagerstown CathedralCity Leominster Arvada FortSmith FortWaltonBeach Kissimmee Corona Detroit Lacey Irving Cary Lewisville Brighton Lacey Grayslake Denton Bremerton Henderson HuntingtonBeach Eugene BoiseCity HuntingtonBeach Manchester Atlanta Bremerton Allentown Corona AppleValley Kissimmee Amarillo FortSmith Arvada Glendale Columbia Barnstable Aberdeen
+94
 Aberdeen Aberdeen
-Abilene Abilene
+Greensboro Abilene
 Akron Akron
 Albuquerque Albuquerque
-Alexandria Alexandria
+Amarillo Alexandria Amarillo
 Allentown Allentown
-Amarillo Amarillo
 Anaheim Anaheim
 Anchorage Anchorage
-AnnArbor AnnArbor
+CorpusChristi AnnArbor
 AppleValley AppleValley
 Appleton Appleton
 Arvada Arvada
@@ -19,10 +18,9 @@ Austin Austin
 Bakersfield Bakersfield
 Baltimore Baltimore
 Barnstable Barnstable
-Beaumont Beaumont
+Beaumont Beaumont Bethlehem
 Bellevue Bellevue
 Berkeley Berkeley
-Bethlehem Bethlehem
 Boise Boise
 BoiseCity BoiseCity
 BonitaSprings BonitaSprings
@@ -43,9 +41,9 @@ CollegeStation CollegeStation
 ColoradoSprings ColoradoSprings
 Dallas Dallas
 DalyCity DalyCity
-Danbury Danbury
-DavidsonCounty DavidsonCounty
-Denver Denver
+Evansville Danbury Evansville
+Canton DavidsonCounty
+Layton Denver Layton
 DesMoines DesMoines
 Detroit Detroit
 ElMonte ElMonte
@@ -54,23 +52,21 @@ Elizabeth Elizabeth
 Elkhart Elkhart
 Erie Erie
 Eugene Eugene
-Evansville Evansville
 Fairfield Fairfield
 Fargo Fargo
 Fayetteville Fayetteville
-Fontana Fontana
+Harrisburg Fontana Harrisburg
 FortCollins FortCollins
 FortWaltonBeach FortWaltonBeach
 Frederick Frederick
 Fremont Fremont
-Fresno Fresno
+Fresno Fresno Kalamazoo
 Garland Garland
 Gilbert Gilbert
 GrandRapids GrandRapids
 Grayslake Grayslake
 Hampton Hampton
 Harlingen Harlingen
-Harrisburg Harrisburg
 Hemet Hemet
 Henderson Henderson
 Hickory Hickory
@@ -84,7 +80,6 @@ Irving Irving
 Jacksonville Jacksonville
 Jefferson Jefferson
 Joliet Joliet
-Kalamazoo Kalamazoo
 Kennewick Kennewick
 Knoxville Knoxville
 Lacey Lacey
@@ -93,7 +88,6 @@ Lakeland Lakeland
 Lakewood Lakewood
 Lancaster Lancaster
 LasCruces LasCruces
-Layton Layton
 Leominster Leominster
 LittleRock LittleRock
 Lorain Lorain

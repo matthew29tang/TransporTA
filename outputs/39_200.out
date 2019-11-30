@@ -1,7 +1,7 @@
-Vancouver NewportNews Kent Beaumont Atlanta Denver Albuquerque Omaha VirginiaBeach Ontario Omaha Garland KansasCity Jackson AnnArbor StLouis Bridgeport FortLauderdale SantaAna Tulsa LouisvilleJefferson Reno Norfolk FortLauderdale AnnArbor DesMoines Durham Lakewood Mesquite Joliet Thornton Dallas Worcester Syracuse Sacramento Clyde WestValleyCity Vallejo Sacramento LasVegas Clyde OklahomaCity Amarillo Cary OklahomaCity Rochester Oakland Gainesville Rochester SanFrancisco Warren Paterson MorenoValley Pasadena Norman Washington Sunnyvale Pasadena Pittsburgh MorenoValley Abilene Tacoma Warren PortStLucie Chandler Amarillo SantaClara LongBeach Irving SantaClara Plano Rockford Riverside Philadelphia Salinas Oceanside ElPaso SanAntonio NewHaven Spokane CorpusChristi SantaClarita Toledo Palmdale Pomona Spokane ChulaVista Houston Gilbert Springfield LexingtonFa SiouxFalls FortCollins SantaRosa Shreveport Stamford Allentown Shreveport Laredo Hialeah Tampa ThousandOaks Portland Arlington Tampa McAllen GrandPrairie FortWayne Orlando ElkGrove Huntsville Midland Pikachu JerseyCity Fayetteville ElkGrove Lafayette Orlando PembrokePines Seattle Providence Lincoln PembrokePines Torrance Lancaster LosAngeles Akron Fontana Glasses OverlandPark Escondido Akron Lancaster ColoradoSprings Anaheim Elizabeth ColoradoSprings Columbia Fontana Hollywood SanJose Glasses Modesto Killeen Allentown Chicago Springfield Denton FortWorth Yonkers Raleigh Gilbert Glendale ChulaVista NewHaven Birmingham Corona Brownsville Peoria SanBernardino Knoxville Lubbock Domination Peoria Salem Phoenix Knoxville Madison Fremont CoralSprings Indianapolis Birmingham Scottsdale Charlotte Davidson Scottsdale Teemo BoiseCity Chattanooga Salinas GardenGrove CedarRapids Philadelphia Naperville Murfreesboro Frisco Clarksville Anchorage Frisco Lakewood Thornton SanDiego Worcester StPetersburg Dallas Hartford NewOrleans Surprise Greensboro Hartford Mobile HuntingtonBeach Oski Savannah SimiValley Oski Tempe Fullerton Detroit Alexandria AthensClarkeCounty Fullerton AugustaRichmond Alexandria Irvine GrandRapids LittleRock Irvine Olathe Cincinnati Tallahassee Honolulu Hampton Tallahassee Miami CapeCoral Miramar BatonRouge Richmond Montgomery BatonRouge Mesa Memphis Charleston Mesa OWO Hayward WinstonSalem Waco Wichita Boston WinstonSalem Topeka Chesapeake Jacksonville OWO Chesapeake Buffalo Hayward Denver Cleveland Atlanta Oxnard Beaumont
-100
+Vancouver Kent Beaumont Atlanta Cleveland Denver Albuquerque Omaha VirginiaBeach Ontario Omaha Garland KansasCity Jackson AnnArbor DesMoines Durham Lakewood Thornton Joliet Thornton SanDiego Worcester StPetersburg Dallas Oski Tempe Fullerton AthensClarkeCounty Detroit Alexandria AthensClarkeCounty Fullerton AugustaRichmond AthensClarkeCounty Alexandria Irvine GrandRapids LittleRock Irvine Olathe Cincinnati Tallahassee Miami Hampton Tallahassee Honolulu LittleRock Savannah SimiValley Oski HuntingtonBeach Mobile Hartford NewOrleans Surprise NewOrleans Hartford Dallas Worcester Syracuse Sacramento Clyde Vallejo Sacramento Clyde OklahomaCity Oakland Rochester Gainesville Amarillo SantaClara Riverside Rockford Plano SantaClara Amarillo Cary OklahomaCity Rochester SanFrancisco Warren MorenoValley Pasadena Pittsburgh Washington Norman Pasadena Paterson MorenoValley Abilene Tacoma Warren PortStLucie Kent ColoradoSprings Anaheim Elizabeth ColoradoSprings Lancaster Torrance PembrokePines Seattle Providence Lincoln PembrokePines Orlando Lafayette Huntsville ElkGrove Fayetteville FortWayne Orlando Lafayette ElkGrove Fayetteville JerseyCity Pikachu Midland FortWayne Lancaster LosAngeles Akron Fontana Glasses Hollywood Fontana SanJose Glasses Modesto Killeen Allentown Shreveport SantaRosa FortCollins SiouxFalls LexingtonFa Springfield Chicago FortWorth GrandPrairie McAllen Tampa Portland Arlington Tampa Hialeah Laredo Shreveport Stamford Allentown FortCollins Springfield Denton FortWorth Yonkers Raleigh Gilbert Houston ChulaVista Spokane CorpusChristi SantaClarita Spokane Pomona Palmdale Toledo Raleigh Gilbert Glendale NewHaven Corona Brownsville Peoria SanBernardino Knoxville Lubbock Domination Peoria Salem Phoenix Knoxville Madison Fremont CoralSprings Indianapolis Birmingham NewHaven BoiseCity Teemo Scottsdale Birmingham NewHaven SanAntonio ElPaso Oceanside Salinas Philadelphia CedarRapids GardenGrove Salinas Philadelphia Naperville Murfreesboro Frisco Clarksville Frisco Bridgeport FortLauderdale Norfolk Reno LouisvilleJefferson Tulsa SantaAna Reno Omaha Hayward WinstonSalem Waco Wichita WinstonSalem Boston Chesapeake Montgomery Richmond BatonRouge CapeCoral Miramar BatonRouge Mesa Memphis Charleston Mesa OWO Topeka Chesapeake Jacksonville OWO Chesapeake Buffalo Hayward Denver Cleveland Atlanta Beaumont Vancouver
+94
 Vancouver Vancouver
-Sunnyvale Sunnyvale
+Washington Sunnyvale
 LittleRock LittleRock
 Mobile Mobile
 AugustaRichmond AugustaRichmond
@@ -11,14 +11,14 @@ Pomona Pomona
 Garland Garland
 SantaClarita SantaClarita
 SiouxFalls SiouxFalls
-Mesquite Mesquite
+Joliet Mesquite
 Rockford Rockford
-StLouis StLouis
+AnnArbor StLouis AnnArbor
 GrandPrairie GrandPrairie
-Oxnard Oxnard
-Irving Irving
+Atlanta Oxnard Atlanta
+SantaClara Irving SantaClara
 Norman Norman
-Anchorage Anchorage
+Clarksville Anchorage
 JerseyCity JerseyCity
 GardenGrove GardenGrove
 Allentown Allentown
@@ -26,9 +26,9 @@ Laredo Laredo
 Olathe Olathe
 SanFrancisco SanFrancisco
 Tulsa Tulsa
-Davidson Davidson
+Scottsdale Davidson
 Montgomery Montgomery
-Greensboro Greensboro
+Surprise Greensboro Surprise
 Portland Portland
 OklahomaCity OklahomaCity
 Charleston Charleston
@@ -38,7 +38,7 @@ Corona Corona
 Cary Cary
 Stamford Stamford
 Denver Denver
-Escondido Escondido
+Akron Escondido Akron
 Ontario Ontario
 Lincoln Lincoln
 Anaheim Anaheim
@@ -49,7 +49,6 @@ Dallas Dallas
 Chicago Chicago
 Huntsville Huntsville
 Wichita Wichita
-Akron Akron
 Denton Denton
 Cincinnati Cincinnati
 Brownsville Brownsville
@@ -57,16 +56,14 @@ Glendale Glendale
 Waco Waco
 Madison Madison
 Hartford Hartford
-Atlanta Atlanta
 Killeen Killeen
 Lancaster Lancaster
 Thornton Thornton
 Beaumont Beaumont
 Hampton Hampton
-ThousandOaks ThousandOaks
+Tampa ThousandOaks Tampa
 Torrance Torrance
 NewOrleans NewOrleans
-Surprise Surprise
 Norfolk Norfolk
 LouisvilleJefferson LouisvilleJefferson
 Warren Warren
@@ -77,16 +74,13 @@ Raleigh Raleigh
 Irvine Irvine
 McAllen McAllen
 Pikachu Pikachu
-LasVegas LasVegas
+Clyde LasVegas
 Worcester Worcester
 Glasses Glasses
-Tampa Tampa
 MorenoValley MorenoValley
 Omaha Omaha
 FortCollins FortCollins
 Knoxville Knoxville
-SantaClara SantaClara
-AnnArbor AnnArbor
 Mesa Mesa
 Houston Houston
 Miami Miami

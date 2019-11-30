@@ -18,6 +18,7 @@ class Christofides:
         self.perfect_matching = None
         self.eulerian_tour = None
         self.mst_distances = None
+        self.hamiltonian_path = None
 
     def solve(self):
         "*** YOUR CODE HERE ***"
@@ -26,7 +27,8 @@ class Christofides:
         self.perfect_matching = self._compute_min_perfect_matching(self.mst)
         self.eulerian_tour = list(nx.eulerian_circuit(self.perfect_matching))
         self.path = [u for u, v in self.eulerian_tour] + [list(self.eulerian_tour)[-1][1]]
-        return smartOutput(self.graph, self.path, self.length, list(self.homes))
+        self.hamiltonian_path = self.create_hamiltonian_path(self.path)
+        return smartOutput(self.graph, self.hamiltonian_path, self.length, list(self.homes))
 
     ### Helper Functions ###
     def _compute_min_perfect_matching(self, mst):
@@ -47,3 +49,18 @@ class Christofides:
             mst.add_edge(v, closest, weight=length)
             odd_vertices.remove(closest)
         return mst
+
+    def create_hamiltonian_path(self, path):
+        result = np.asarray(path)
+        start_indices = []
+        buffer = 0
+        for i in range(len(path) - 1):
+            start = path[i]
+            end = path[i+1]
+            if (self.nxG.has_edge(start, end) == False):
+                list = nx.dijkstra_path(self.nxG,start,end)
+                li = list[1: len(list) - 1]
+                li_array = np.asarray(li)
+                result = np.insert(result, i+buffer+1, li_array)
+                buffer += len(li)
+        return result.tolist()

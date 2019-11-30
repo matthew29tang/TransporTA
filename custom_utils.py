@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import student_utils as su
 from data_structures import *
 
-SMART = False
+SMART = True
 
 class Graph:
     def __init__(self, data):
