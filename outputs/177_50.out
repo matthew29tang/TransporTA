@@ -1,3 +1,15 @@
-Soda
-1
-Soda a0 a1 b0 b1 c0 c1 d0 d1 e0 e1 f0 f1 g0 g1 h0 h1 i0 i1 j0 j1 k0 k1 l0 l1 y
+Soda a b c b a b c d e f g h g h i j k l k l k j i h g f e d c b a Soda o p r s u w u s r p o Soda
+13
+a a0 a1
+b b0 b1
+c c0 c1
+d d0 d1
+e e0 e1
+f f0 f1
+g g0 g1
+h h0 h1
+i i0 i1
+j j0 j1
+k k0 k1
+l l0 l1
+w y

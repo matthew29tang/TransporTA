@@ -70,19 +70,23 @@ def output(G, path, dropoffs):
 def smartOutput(G, path, allPairsLengths, homes):
     #if path is None or len(dropoffs) == 0:
     #    raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
-    dropoffs = {}
+    
+    remainingHomeSet = set(G.houses)
+    collapsed = Counter()
     s = Stack()
     for v in path:
         if s.size() < 2:
             s.push(v)
-            continue
-        if s.doublePeek() == v:
-            s.pop()
+        elif s.doublePeek() == v and collapsed[s.peek()] < 1:
+            popped = s.pop()
+            if popped in remainingHomeSet:
+                collapsed[s.peek()] += 1 # Collapse v into the previous vertex
         else:
             s.push(v)
-    path = s.list
+    path = s.list 
     pathSet = set(path)
     
+    dropoffs = {}
     for h in homes:
         if h in pathSet:
             _dictAdd(dropoffs, h, h)

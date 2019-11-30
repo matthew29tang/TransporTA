@@ -44,7 +44,7 @@ class Footsteps:
             i += 1
         homePath = nx.dijkstra_path(self.nxG, v, self.graph.start)
         self.path = self.path + homePath[1:]
-        return smartOutput(self.G, self.path, self.allPairsLengths, list(self.homes))
+        return smartOutput(self.graph, self.path, self.allPairsLengths, list(self.homes))
 
     ### Helper Functions ###
     # 1) Return a dictionary F where the keys represent the edge(u,v) and values represent the frequency they are walked on.

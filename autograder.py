@@ -6,6 +6,7 @@ import argparse
 import utils
 import pickle
 import input_validator
+from datetime import datetime
 
 # Set true for multi-core enhancement.
 import multiprocessing
@@ -30,21 +31,28 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         return all_results
     else:
         print("MULTICORE IN PROCESS. DO NOT CONTROL-C.")
-        all_results = Manager().list() #Array('d', [])
+        all_results = Manager().list()
+        inputs = Manager().list()
         tasks = []
         i = 0
         for input_file in input_files:
-            tasks.append((input_file, output_files, output_directory, all_baseline, i, all_results))
+            tasks.append((input_file, output_files, output_directory, all_baseline, i, all_results, inputs))
             i += 1
         pool = Pool(num_thread - 1)
         results = [pool.apply_async(_outputCost, t) for t in tasks]
         pool.close()
         pool.join()
         print("Total results: ", str(100 / 949 * sum(all_results)))
+        a = open(str(datetime.now()).split(".")[0].replace(":","-")+".log", "w")
+        for r in all_results:
+            a.write(str(r) + "\n")
+        a.write("\n")
+        for inp in inputs:
+            a.write(str(inp) + "\n")
         return all_results
     # pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) Cache results    
 
-def _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results):
+def _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results, inputs=[]):
     output_file = utils.input_to_output(input_file, output_directory).replace("\\", "/")
     if output_file not in output_files:
         print(f'No corresponding .out file for {input_file}')
@@ -57,6 +65,7 @@ def _outputCost(input_file, output_files, output_directory, all_baseline, i, all
         results = cost / baselineCost
         print("Input: ", input_file, "\t Results: ", results)
         all_results.append(min(results, 1))
+        inputs.append(input_file)
         return min(results, 1)
 
 if __name__ == '__main__':
