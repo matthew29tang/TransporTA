@@ -23,7 +23,7 @@ class Graph:
     def visualize(self):
         nx.draw(self.nxG, with_labels=True)
         plt.show()
-    
+
     def cost(self, car_cycle, dropoff_mapping):
         return su.cost_of_solution(self.G, car_cycle, dropoff_mapping)
 
@@ -71,6 +71,7 @@ def smartOutput(G, path, allPairsLengths, homes):
     #if path is None or len(dropoffs) == 0:
     #    raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
     dropoffs = {}
+    """
     s = Stack()
     for v in path:
         if s.size() < 2:
@@ -81,8 +82,9 @@ def smartOutput(G, path, allPairsLengths, homes):
         else:
             s.push(v)
     path = s.list
+    """
     pathSet = set(path)
-    
+
     for h in homes:
         if h in pathSet:
             _dictAdd(dropoffs, h, h)

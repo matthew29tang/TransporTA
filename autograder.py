@@ -12,7 +12,7 @@ import multiprocessing
 from multiprocessing import Pool
 from multiprocessing import Array
 from multiprocessing import Manager
-MULTICORE = True
+MULTICORE = False
 num_thread = multiprocessing.cpu_count()
 
 def validate_all_outputs(input_directory, output_directory, params=[]):
@@ -21,7 +21,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
 
     i = 0
     all_results = []
-    all_baseline = pickle.load(open("baselineCosts.p", "rb"))
+    all_baseline = []
     if not MULTICORE:
         for input_file in input_files:
             _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results)
@@ -42,7 +42,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         pool.join()
         print("Total results: ", str(100 / 949 * sum(all_results)))
         return all_results
-    # pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) Cache results    
+    pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) #Cache results
 
 def _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results):
     output_file = utils.input_to_output(input_file, output_directory).replace("\\", "/")
@@ -51,9 +51,9 @@ def _outputCost(input_file, output_files, output_directory, all_baseline, i, all
         results = (None, None, f'No corresponding .out file for {input_file}')
     else:
         cost = ov.validate_output(input_file, output_file)[1]
-        # baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1], params=args.params)[1]
-        baselineCost = all_baseline[i]
-        # all_baseline.append(baselineCost)
+        baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1])[1]
+        # baselineCost = all_baseline[i]
+        all_baseline.append(baselineCost)
         results = cost / baselineCost
         print("Input: ", input_file, "\t Results: ", results)
         all_results.append(min(results, 1))
@@ -74,4 +74,3 @@ if __name__ == '__main__':
         cost = ov.validate_output(input_file, output_file, params=args.params)[1]
         baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1], params=args.params)[1]
         print(cost / baselineCost)
-

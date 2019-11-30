@@ -37,9 +37,9 @@ def solve(list_of_locations, list_of_homes, starting_car_location, adjacency_mat
         NOTE: both outputs should be in terms of indices not the names of the locations themselves
     """
     g = Graph([len(list_of_locations), len(list_of_homes), list_of_locations, list_of_homes, starting_car_location, adjacency_matrix])
-    f = Footsteps(g).solve()
-    #c = Christofides(g).solve()
-    return f #choose which one to return
+    #f = Footsteps(g).solve()
+    c = Christofides(g).solve()
+    return c #choose which one to return
 
 """
 ======================================================================
@@ -85,7 +85,7 @@ def solve_from_file(input_file, output_directory, params=[]):
 
 
 def solve_all(input_directory, output_directory, params=[]):
-    
+
     input_files = utils.get_files_with_extension(input_directory, 'in')
 
     if not MULTICORE:
@@ -100,7 +100,7 @@ def solve_all(input_directory, output_directory, params=[]):
         results = [pool.apply_async(solve_from_file, t) for t in tasks]
         pool.close()
         pool.join()
-        
+
 
 
 if __name__=="__main__":
