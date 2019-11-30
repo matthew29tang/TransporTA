@@ -82,4 +82,4 @@ if __name__ == '__main__':
         input_file, output_file = args.input, args.output
         cost = ov.validate_output(input_file, output_file, params=args.params)[1]
         baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1], params=args.params)[1]
-        print(cost / baselineCost)
+        print(float(cost) / baselineCost)

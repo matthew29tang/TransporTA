@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import student_utils as su
 from data_structures import *
 
+SMART = False
+
 class Graph:
     def __init__(self, data):
         # [number_of_locations, number_of_houses, list_of_locations, list_of_houses, starting_location, adjacency_matrix]
@@ -71,19 +73,20 @@ def smartOutput(G, path, allPairsLengths, homes):
     if path is None or len(path) == 0:
         raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
 
-    remainingHomeSet = set(G.houses)
-    collapsed = Counter()
-    s = Stack()
-    for v in path:
-        if s.size() < 2:
-            s.push(v)
-        elif s.doublePeek() == v and collapsed[s.peek()] < 1:
-            popped = s.pop()
-            if popped in remainingHomeSet:
-                collapsed[s.peek()] += 1 # Collapse v into the previous vertex
-        else:
-            s.push(v)
-    path = s.list
+    if SMART:
+        remainingHomeSet = set(G.houses)
+        collapsed = Counter()
+        s = Stack()
+        for v in path:
+            if s.size() < 2:
+                s.push(v)
+            elif s.doublePeek() == v and collapsed[s.peek()] < 1:
+                popped = s.pop()
+                if popped in remainingHomeSet:
+                    collapsed[s.peek()] += 1 # Collapse v into the previous vertex
+            else:
+                s.push(v)
+        path = s.list
     pathSet = set(path)
 
     dropoffs = {}

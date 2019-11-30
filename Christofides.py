@@ -24,8 +24,8 @@ class Christofides:
         self.length = list(nx.all_pairs_dijkstra_path_length(self.nxG))
         self.mst = nx.minimum_spanning_tree(self.nxG)
         self.perfect_matching = self._compute_min_perfect_matching(self.mst)
-        self.eulerian_tour = nx.eulerian_circuit(self.perfect_matching)
-        self.path = [u for u, v in self.eulerian_tour]
+        self.eulerian_tour = list(nx.eulerian_circuit(self.perfect_matching))
+        self.path = [u for u, v in self.eulerian_tour] + [list(self.eulerian_tour)[-1][1]]
         return smartOutput(self.graph, self.path, self.length, list(self.homes))
 
     ### Helper Functions ###

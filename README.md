@@ -6,5 +6,6 @@ Matthew Tang, Christianna Xu: Group 117
 * Generate outputs: `py .\solver.py --all ./inputs ./outputs`
 * Autograder: `py .\autograder.py --all inputs outputs`
 
-Scores:
+## Scores
 Naive Footsteps: 40.7345
+Footsteps v2: 39.28
