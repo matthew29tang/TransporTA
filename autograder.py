@@ -11,6 +11,7 @@ import input_validator
 import multiprocessing
 from multiprocessing import Pool
 from multiprocessing import Array
+from multiprocessing import Manager
 MULTICORE = True
 num_thread = multiprocessing.cpu_count()
 
@@ -29,7 +30,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         return all_results
     else:
         print("MULTICORE IN PROCESS. DO NOT CONTROL-C.")
-        all_results = Array('d', [])
+        all_results = Manager().list() #Array('d', [])
         tasks = []
         i = 0
         for input_file in input_files:
@@ -39,12 +40,9 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         results = [pool.apply_async(_outputCost, t) for t in tasks]
         pool.close()
         pool.join()
-        print(all_results[:])
         print("Total results: ", str(100 / 949 * sum(all_results)))
         return all_results
-    # pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) Cache results
-    
-    
+    # pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) Cache results    
 
 def _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results):
     output_file = utils.input_to_output(input_file, output_directory).replace("\\", "/")
