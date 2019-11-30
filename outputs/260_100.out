@@ -1,13 +1,13 @@
-Hayward Asheville CedarRapids Memphis Winston Hickory Kennewick PuntaGorda Omaha Topeka Montgomery SantaCruz Tucson Bradenton Huntsville Yonkers Waterloo Springdale McHenry Torrance PalmBay Modesto Hampton RichmondCounty Charlotte BelAir York NewBedford Aurora Tucson Washington LakeCharles Newark Burbank Danbury Atlanta Abilene Downey Rochester AtlanticCity SaintPaul SimiValley NewBedford Waco Harlingen SaintLouis Medford Barnstable Bryan Deltona Durham Bloomington Newark NewYorkCity York BelAir McAllen KansasCity Huntsville Bradenton Tucson Winston Murrieta Winston Memphis CedarRapids Hayward
-45
+PuntaGorda Omaha Topeka Montgomery SantaCruz ThousandOaks Montgomery PembrokePines Visalia Independence Trenton Murfreesboro Yonkers Trenton Hickory HuntingtonBeach Tyler Hickory Winston Murrieta Tampa SimiValley SaintPaul AtlanticCity PanamaCity Fitchburg Downey Howell Fontana Fargo GrandRapids Abilene Worcester Atlanta Sebastian Kennewick Victorville Danbury Atlanta Abilene Downey AtlanticCity Rochester Downey Carrollton Cambridge Springdale Corona Modesto Hampton RichmondCounty Charlotte Cambridge FortWayne McHenry Newark Norfolk FortCollins Durham Bloomington Lafayette Durham CedarRapids Asheville Hayward SantaClara Bryan Deltona Durham Asheville Norman Allentown Springdale McHenry Torrance Bremerton DalyCity Reading NewBedford York BelAir Milwaukee LongBeach Houston Monroe BelAir NewBedford DalyCity SanJose SaintLouis NewOrleans Waco Harlingen SaintLouis Chicago Burbank NewOrleans Irvine LakeCharles Washington Wilmington Winston Waterloo Yonkers GulfportBiloxi Medford Barnstable Bakersfield Aurora Tucson Bradenton Huntsville KansasCity McAllen Huntsville SouthBend StPaul Killeen Lewisville StPaul PalmBay Tucson Winston Memphis Wilmington PuntaGorda NewYorkCity Kennewick
+50
 PuntaGorda PuntaGorda
-Hickory Tyler HuntingtonBeach Hickory
-Montgomery ThousandOaks
+Tyler Tyler
+ThousandOaks ThousandOaks
 PalmBay PalmBay
 Tucson Tucson
 Barnstable Barnstable
 Yonkers Yonkers
-Burbank Burbank Chicago
+Burbank Burbank
 McHenry McHenry
 Harlingen Harlingen
 Charlotte Charlotte
@@ -18,20 +18,24 @@ Danbury Danbury
 Downey Downey
 Asheville Asheville
 McAllen McAllen
-Abilene GrandRapids
-BelAir BelAir Monroe
-Aurora Aurora Bakersfield
+Chicago Chicago
+GrandRapids GrandRapids
+BelAir BelAir
+Aurora Aurora
 CedarRapids CedarRapids
 LakeCharles LakeCharles
 Bradenton Bradenton
 RichmondCounty RichmondCounty
 SantaCruz SantaCruz
 Modesto Modesto
+HuntingtonBeach HuntingtonBeach
 Huntsville Huntsville
 NewYorkCity NewYorkCity
-Murrieta Tampa
+Tampa Tampa
+Monroe Monroe
+Bakersfield Bakersfield
 Springdale Springdale
-Hayward SantaClara
+SantaClara SantaClara
 Atlanta Atlanta
 Durham Durham
 Newark Newark
@@ -42,6 +46,7 @@ Bloomington Bloomington
 NewBedford NewBedford
 SaintPaul SaintPaul
 York York
+Hickory Hickory
 Waco Waco
 Waterloo Waterloo
 Hampton Hampton

@@ -1,7 +1,7 @@
-Chattanooga Cleveland SanAntonio Memphis Wichita Fayetteville Aurora Orange Frisco KansasCity Jackson Brownsville Boston Salem Plano Fresno Corona FortWorth Roseville MorenoValley Anaheim ChulaVista Akron Hayward Raleigh Norfolk Irvine OklahomaCity Lincoln Madison Joliet SanBernardino Fremont Honolulu Huntsville Tacoma Oxnard Spokane Springfield Berkeley Knoxville WinstonSalem Cincinnati LongBeach Waco Albuquerque Orlando NewportNews DesMoines Austin Vancouver Detroit BatonRouge Bakersfield Carrollton Surprise Anchorage Phoenix Indianapolis Riverside Scottsdale Riverside Indianapolis FortLauderdale Savannah SaltLakeCity Richmond Fayetteville Aurora Lexington Baltimore Aurora Orange Henderson Toledo GardenGrove Salinas Murfreesboro Charlotte SanDiego Sunnyvale StPetersburg Clarksville Jacksonville Killeen SantaAna OklahomaCity Fontana Oceanside CapeCoral LittleRock ElPaso Denton Gilbert Tallahassee Buffalo Pomona Garland Naperville Chicago Portland Glendale SanJose Washington SaintPaul Norfolk Hayward Akron RanchoCucamonga Newark McAllen ElkGrove Plano Yonkers Durham MorenoValley Anaheim NewYork Minneapolis NewportNews Jerusalem Louisville Omaha LongBeach Cincinnati Paterson JerseyCity Mobile Midland Dayton Plano PortStLucie Miramar Honolulu Miramar Tampa Thornton Ontario TianamenSquare CorpusChristi ElPaso Chattanooga
-91
+NewYork Arlington WestValleyCity SiouxFalls Arlington ChulaVista Anaheim Roseville Durham Wichita Memphis Tulsa Macon Orange Frisco KansasCity Seattle Frisco Lexington Aurora Orange Fayetteville Aurora Baltimore Shreveport LittleRock Macon Montgomery LittleRock CapeCoral Pomona FortCollins Palmdale Providence SantaClarita Hayward Torrance RanchoCucamonga TianamenSquare Ontario Newark RanchoCucamonga Akron Hayward Norfolk SaintPaul Washington Chandler Raleigh Norfolk Irvine Fontana OklahomaCity Irvine Syracuse Joliet Madison Lincoln OklahomaCity SantaAna Milwaukee Dallas Mesa Norfolk SantaClarita Augusta Lakewood Boise Sunnyvale StPetersburg Clarksville StLouis Denver Clarksville Jacksonville Killeen Atlanta Toledo StPetersburg Boise SanBernardino Tucson Sunnyvale SanDiego SanBernardino Fremont Honolulu Peoria Corona Eugene Oakland Corona Lubbock Peoria Jerusalem Alexandria NewportNews DesMoines ColoradoSprings Brownsville Jackson HuntingtonBeach Minneapolis WinstonSalem Knoxville Berkeley Lancaster Spokane Springfield Berkeley FortWayne Bridgeport Boston Munich Cincinnati Paterson LongBeach Cincinnati Rockford Omaha LongBeach GrandPrairie Bellevue Albuquerque Waco LosAngeles Albuquerque Cincinnati WinstonSalem Garland Fullerton Chicago Naperville Garland Minneapolis NewportNews Jerusalem Hialeah SanFrancisco Honolulu Miramar PortStLucie Thornton Tampa Miramar Philadelphia Fremont Huntsville Oxnard Tacoma Huntsville Sacramento Miami FortLauderdale Savannah ElkGrove McAllen Cleveland Chattanooga Chesapeake Cleveland NewOrleans ElPaso Birmingham Dayton NorthLasVegas CorpusChristi ElPaso Dayton Plano Hollywood OuterHaven Fresno Pittsburgh GrandRapids Fresno Worcester Louisville Hollywood Columbus OuterHaven Greensboro PembrokePines Gilbert Denton Orlando PembrokePines Salem LasVegas JerseyCity Mobile Olathe Buffalo JerseyCity Portland Fresno Plano ElkGrove SaltLakeCity Savannah Phoenix Indianapolis Irving Nashville Riverside Scottsdale Tempe OverlandPark Surprise Carrollton Davis Richmond Stockton Surprise Anchorage Midland Bakersfield Salinas Murfreesboro Laredo Charlotte Murfreesboro Houston Reno Rochester GardenGrove Salinas Detroit Pasadena McKinney Vancouver BatonRouge Bakersfield Oceanside Cary Austin Vancouver Detroit BatonRouge OverlandPark Scottsdale Escondido Riverside Indianapolis FortLauderdale Tulsa Montgomery SanJose Memphis Modesto SanAntonio Memphis Roseville MorenoValley Tallahassee SantaRosa FortWorth Glendale VirginiaBeach FortWorth Roseville Amarillo Yonkers Mesquite Henderson MorenoValley Anaheim
+100
 NewYork NewYork
-Albuquerque LosAngeles
+LosAngeles LosAngeles
 Chicago Chicago
 Phoenix Phoenix
 SanAntonio SanAntonio
@@ -10,7 +10,7 @@ SanJose SanJose
 Austin Austin
 Jacksonville Jacksonville
 FortWorth FortWorth
-Honolulu SanFrancisco Honolulu
+SanFrancisco SanFrancisco
 Charlotte Charlotte
 Indianapolis Indianapolis
 Washington Washington
@@ -26,6 +26,7 @@ Cleveland Cleveland
 Bakersfield Bakersfield
 Aurora Aurora
 Anaheim Anaheim
+Honolulu Honolulu
 SantaAna SantaAna
 Riverside Riverside
 Lexington Lexington
@@ -36,57 +37,65 @@ Anchorage Anchorage
 Plano Plano
 Lincoln Lincoln
 Orlando Orlando
-Irvine Irvine Syracuse
+Irvine Irvine
 Newark Newark
 Toledo Toledo
 Durham Durham
 ChulaVista ChulaVista
 Madison Madison
 Buffalo Buffalo
-Corona Lubbock Corona
-Scottsdale Scottsdale Tempe
+Lubbock Lubbock
+Scottsdale Scottsdale
 Glendale Glendale
 Fremont Fremont
-SanBernardino Boise SanBernardino
+Boise Boise
 Richmond Richmond
 BatonRouge BatonRouge
 Spokane Spokane
 DesMoines DesMoines
 Tacoma Tacoma
+SanBernardino SanBernardino
 Fontana Fontana
-Hayward SantaClarita Hayward
+SantaClarita SantaClarita
 Oxnard Oxnard
 Fayetteville Fayetteville
-Fresno GrandRapids Worcester
+GrandRapids GrandRapids
 Yonkers Yonkers
 Akron Akron
-LittleRock LittleRock Shreveport
+LittleRock LittleRock
 PortStLucie PortStLucie
-LongBeach GrandPrairie
+GrandPrairie GrandPrairie
 Tallahassee Tallahassee
+Tempe Tempe
 CapeCoral CapeCoral
+Shreveport Shreveport
 Frisco Frisco
 Knoxville Knoxville
+Worcester Worcester
 Brownsville Brownsville
 Vancouver Vancouver
 FortLauderdale FortLauderdale
 Ontario Ontario
-NewportNews NewportNews Alexandria
+NewportNews NewportNews
 Oceanside Oceanside
 Salem Salem
 GardenGrove GardenGrove
+Corona Corona
 Springfield Springfield
 Jackson Jackson
+Alexandria Alexandria
+Hayward Hayward
 Pomona Pomona
 Naperville Naperville
 Joliet Joliet
 Savannah Savannah
 Paterson Paterson
 McAllen McAllen
+Syracuse Syracuse
 Midland Midland
 Berkeley Berkeley
 Murfreesboro Murfreesboro
-Mobile Olathe
+Olathe Olathe
 Orange Orange
 Denton Denton
 Waco Waco

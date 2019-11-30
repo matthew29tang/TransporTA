@@ -1,5 +1,5 @@
-FortCollins Harlingen Knoxville Akron Elizabeth Arvada Leominster Fargo BonitaSprings Baltimore DesMoines Bloomington Layton Austin LasVegas Kennewick Anaheim ColoradoSprings Cleveland Bellevue Independence Bremerton Allentown Henderson Manchester BoiseCity Eugene Honolulu Burbank Jefferson Dallas Bradenton Bridgeport McAllen Chicago Clearwater Evansville FortWayne Fairfield Joliet LasCruces Fairfield Lancaster Anchorage Lubbock Louisville Barnstable Aberdeen CollegeStation Boise ElPaso GardenGrove Carrollton Frederick Hampton Lafayette Lakewood Berkeley DavidsonCounty Harrisburg Champaign Elkhart Brighton Lacey Detroit Corona AppleValley FortWaltonBeach Hickory Erie Athens Bakersfield AtlanticCity Jacksonville Gilbert Houston Fresno DalyCity Fayetteville Brownsville Appleton Lorain Garland GrandRapids Indianapolis Albuquerque Davenport Amarillo Alexandria LittleRock Greensboro Abilene Grayslake Hollywood Hemet Fremont Irving Cary Lewisville AnnArbor ElMonte Irvine Chandler Lakeland CedarRapids Beaumont Bethlehem Kalamazoo CapeCoral Augusta Joliet Danbury Atlanta Fontana GulfportBiloxi FortCollins
-98
+Aberdeen Appleton Fayetteville Madison Houma Fayetteville Brownsville Barnstable Kenosha Jacksonville Charlotte AtlanticCity Jacksonville Gilbert Kenosha Dayton Augusta Boulder Baltimore BonitaSprings Charleston Concord Clearwater Danbury Evansville Clearwater Chicago McAllen Bridgeport Bradenton Clarksville Dallas LosAngeles Jefferson ElkGrove Irvine Fontana Harrisburg ElkGrove Honolulu Cambridge HavredeGrace Burbank Cambridge Gastonia Fremont Hollywood Buffalo Cambridge BatonRouge Jefferson Marysville Columbus Dallas Aurora Lincoln Lakeland Bellevue Independence ClarkeCounty Aurora Hartford Hayward Baltimore Charleston Fargo Arvada Erie Athens GrandPrairie Arlington Harlingen Knoxville Hemet Indianapolis Burlington Duluth Kailua GrandRapids Garland Burlington Chattanooga LakeCharles DaytonaBeach Lowell FortSmith FortWaltonBeach Kissimmee FortCollins Harlingen CostaMesa FortCollins Elkhart Champaign GulfportBiloxi Cincinnati FortLauderdale CorpusChristi Marina AnnArbor CorpusChristi Bakersfield Cincinnati FortCollins Akron Elizabeth Albuquerque Davenport DaytonaBeach Arvada Hickory Inglewood Lansing DesMoines GreenBay Boston Deltona ChulaVista Louisville Lubbock Howell Flint DalyCity Houston Bethlehem Beaumont Houston Fresno Kalamazoo Hesperia Escondido LittleRock Huntington Greensboro Abilene LittleRock BelAir Escondido Asheville Fitchburg Durham DalyCity Howell ChulaVista ColoradoSprings Bloomington Boston Chandler Macon Albany Lorain CedarRapids Bryan HighPoint Hialeah Chesapeake Billings Hialeah Bryan Albany Kaneohe Fairfield Lancaster Anchorage Killeen LongBeach Gainesville Killeen LasCruces Joliet Fairfield FortWayne Layton LasVegas Kennewick Denver Layton Bloomington JohnsonCity Antioch Kennewick Anaheim Greenville LasVegas Cleveland Austin LasVegas Downey Carrollton Fullerton JerseyCity Lexington Lakewood Lafayette Hampton Frederick Carrollton Laredo Jackson CollegeStation ElPaso Boise CollegeStation GardenGrove Laredo CoralSprings Birmingham Fullerton KansasCity FortWorth Berkeley ElMonte DavidsonCounty Canton KansasCity CapeCoral Atlanta Manchester HuntingtonBeach Huntsville Bremerton Henderson HuntingtonBeach BoiseCity Eugene Grayslake Denton Bremerton Allentown Corona Detroit Lacey Lewisville Cary Irving Lacey Brighton Corona AppleValley Kissimmee Amarillo Alexandria Hagerstown CathedralCity Leominster Arvada FortSmith Akron Arvada Glendale Columbia Barnstable
+100
 Aberdeen Aberdeen
 Abilene Abilene
 Akron Akron
@@ -45,7 +45,7 @@ Dallas Dallas
 DalyCity DalyCity
 Danbury Danbury
 DavidsonCounty DavidsonCounty
-Layton Denver Layton
+Denver Denver
 DesMoines DesMoines
 Detroit Detroit
 ElMonte ElMonte
@@ -73,11 +73,12 @@ Harlingen Harlingen
 Harrisburg Harrisburg
 Hemet Hemet
 Henderson Henderson
-Hickory Hickory Inglewood
+Hickory Hickory
 Hollywood Hollywood
 Houston Houston
 Independence Independence
 Indianapolis Indianapolis
+Inglewood Inglewood
 Irvine Irvine
 Irving Irving
 Jacksonville Jacksonville
@@ -92,6 +93,7 @@ Lakeland Lakeland
 Lakewood Lakewood
 Lancaster Lancaster
 LasCruces LasCruces
+Layton Layton
 Leominster Leominster
 LittleRock LittleRock
 Lorain Lorain

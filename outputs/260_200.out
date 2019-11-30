@@ -1,5 +1,5 @@
-Hayward Shreveport Hartford NorthLasVegas SterlingHeights Champaign Charlotte Lubbock Melbourne Torrance Brighton Oxnard SanBuenaventura Norwich Utica Anchorage OverlandPark Trenton Anaheim Columbus SantaClara VeroBeach Stamford Marysville Stamford LasVegas Nashua Tyler Arvada Wilmington Vancouver GrandRapids SaintPaul Duluth Fullerton Youngstown SouthBend Fresno Topeka Downey Burlington ElPaso ElMonte McAllen Elkhart Modesto PuntaGorda Hemet Mobile SanBernardino PembrokePines Racine SantaClarita KansasCity CorpusChristi StPaul Savannah Lacey PortArthur Marina Kissimmee Huntsville ThousandOaks PortSaintLucie ThousandOaks Cambridge PalmBay Hagerstown Plano Greenville OverlandPark Anchorage Mesquite Escondido Independence RoundLakeBeach Kalamazoo NewYork Tucson Deltona Salem Hampton Gastonia CapeCoral Gastonia Laredo GreenBay Lafayette Waterbury Newburgh Carrollton MyrtleBeach Eugene Boise Tacoma Merced Detroit BoiseCity Harrisburg HuntingtonBeach Sarasota Scranton Fairfield SantaBarbara NewYorkCity York Reno York HavredeGrace Bryan Aberdeen SimiValley NewportNews Cincinnati Murrieta Harlingen Springfield Spartanburg LakeCharles Boulder Kaneohe StLouis Norwalk SouthLyon NewBedford Orem Bethlehem Boston Hialeah Marina Barnstable RoundLakeBeach Lorain Scottsdale Omaha Champaign SterlingHeights NorthLasVegas Hartford Shreveport Hayward
-93
+PuntaGorda HavredeGrace Bryan NewYork Monroe Escondido Sacramento StLouis Mesquite Escondido Independence RoundLakeBeach Lorain Cincinnati Independence Tucson NewYork Kalamazoo Bryan Hampton Gastonia MorenoValley Newark Hampton Laredo Gastonia CapeCoral Bloomington Killeen Modesto Worcester SantaBarbara Burlington Worcester Seaside DalyCity SanJose Lafayette GreenBay Howell CapeCoral Seaside Shreveport Hayward NorthLasVegas Hartford Shreveport Orem Bethlehem Hartford Houma Kaneohe Downey NewYorkCity Henderson Topeka Downey Burlington Norwalk SouthLyon NewBedford Norwalk Huntsville PortArthur Lacey RichmondCounty PortArthur Marina Billings Minneapolis Frederick Marina Kissimmee Huntsville ThousandOaks PalmBay Cambridge PortStLucie Plano Cambridge ThousandOaks PortSaintLucie Olympia Syracuse Tuscaloosa ElMonte Merced Tacoma SiouxCity SaintPetersburg Harrisburg HuntingtonBeach Sarasota Scranton Fairfield Arvada Harrisburg BoiseCity Detroit Merced McAllen ElMonte Spartanburg Springfield Columbia Harlingen Springfield SterlingHeights Champaign Charlotte SterlingHeights Boston Vancouver Tallahassee Muskegon NewportNews Concord Aberdeen SimiValley NewportNews Vancouver Wilmington Arvada Tyler Nashua Detroit Duluth Toledo Fullerton Paterson Victorville Scottsdale Raleigh Omaha Scottsdale Roseville Fullerton Duluth SaintPaul ElPaso SanAntonio JohnsonCity SaintPaul GrandRapids Flint Fullerton Youngstown Fargo SouthBend Youngstown PanamaCity Hagerstown Youngstown Barnstable SouthBend Bakersfield CostaMesa VeroBeach Houston Jefferson Warren York Reno Ogden Norman Racine SantaClarita KansasCity Houston LasCruces KansasCity VeroBeach SantaAna Pueblo SanBernardino PembrokePines VeroBeach SantaClara PembrokePines SantaMaria Poughkeepsie Elkhart Deltona Salem Poughkeepsie Medford LasVegas Stamford Marysville Pittsburgh Layton Marysville Murfreesboro Stamford VeroBeach OverlandPark Trenton Louisville Anchorage Fresno Baltimore Lexington Utica Anchorage OverlandPark Greenville CostaMesa Lubbock Melbourne Torrance Milwaukee Lincoln Savannah StPaul CathedralCity CorpusChristi StPaul Milwaukee Lubbock Bryan Birmingham Hialeah Albuquerque Torrance Brighton Oxnard FortWaltonBeach Portsmouth Murrieta SanBuenaventura Winston Newburgh Waterbury Fitchburg Oxnard SanBuenaventura Brownsville Norwich SanBuenaventura Anaheim Lansing Eugene Anaheim Columbus DesMoines Carrollton MyrtleBeach LakeCharles Boulder Phoenix BatonRouge Eugene Boise Columbus Visalia Carrollton SiouxFalls Hemet Salinas Mobile Hemet
+100
 PuntaGorda PuntaGorda
 Tyler Tyler
 Cincinnati Cincinnati
@@ -8,12 +8,12 @@ Norwich Norwich
 PalmBay PalmBay
 Tucson Tucson
 Utica Utica
-SanBernardino Pueblo
-Hialeah Albuquerque Hialeah
+Pueblo Pueblo
+Albuquerque Albuquerque
 Laredo Laredo
 NewportNews NewportNews
 Barnstable Barnstable
-ElPaso JohnsonCity ElPaso
+JohnsonCity JohnsonCity
 Greenville Greenville
 Eugene Eugene
 Racine Racine
@@ -26,26 +26,28 @@ Charlotte Charlotte
 OverlandPark OverlandPark
 Omaha Omaha
 Topeka Topeka
-CapeCoral CapeCoral Bloomington
+CapeCoral CapeCoral
 Deltona Deltona
 Anchorage Anchorage
-Marina Marina Frederick
+Marina Marina
 Salem Salem
 LasVegas LasVegas
 Downey Downey
 Hagerstown Hagerstown
-Bryan Birmingham
+Birmingham Birmingham
 SanBuenaventura SanBuenaventura
 Mesquite Mesquite
-Fullerton Flint Fullerton
+Flint Flint
 McAllen McAllen
 Lubbock Lubbock
 CorpusChristi CorpusChristi
-Marysville Layton Marysville
+Layton Layton
+Fullerton Fullerton
 Bethlehem Bethlehem
 NorthLasVegas NorthLasVegas
 StLouis StLouis
 GrandRapids GrandRapids
+Frederick Frederick
 Boise Boise
 Arvada Arvada
 Oxnard Oxnard
@@ -55,11 +57,11 @@ Fresno Fresno
 Waterbury Waterbury
 LakeCharles LakeCharles
 Stamford Stamford
-PortSaintLucie Olympia
-PortArthur RichmondCounty
+Olympia Olympia
+RichmondCounty RichmondCounty
 Duluth Duluth
 Modesto Modesto
-NewYorkCity Henderson NewYorkCity
+Henderson Henderson
 HuntingtonBeach HuntingtonBeach
 Huntsville Huntsville
 Lacey Lacey
@@ -68,20 +70,25 @@ Columbus Columbus
 Savannah Savannah
 Vancouver Vancouver
 Detroit Detroit
-StPaul CathedralCity
+Hialeah Hialeah
+CathedralCity CathedralCity
+NewYorkCity NewYorkCity
+Marysville Marysville
 GreenBay GreenBay
-SouthBend Bakersfield
-Escondido Monroe
-Trenton Louisville
+Bakersfield Bakersfield
+Monroe Monroe
+Louisville Louisville
+ElPaso ElPaso
 SantaClara SantaClara
 Kissimmee Kissimmee
-Hampton Newark
+Newark Newark
 Torrance Torrance
 Hartford Hartford
 Plano Plano
+Bloomington Bloomington
 Kalamazoo Kalamazoo
 NewBedford NewBedford
-Carrollton SiouxFalls
+SiouxFalls SiouxFalls
 Elkhart Elkhart
 Champaign Champaign
 Anaheim Anaheim
@@ -92,4 +99,4 @@ Scottsdale Scottsdale
 Aberdeen Aberdeen
 Mobile Mobile
 Melbourne Melbourne
-Reno Ogden
+Ogden Ogden

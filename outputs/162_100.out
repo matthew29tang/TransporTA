@@ -1,7 +1,7 @@
-CorpusChristi ElPaso Akron DalyCity Canton Charleston Columbia Clearwater Boulder BoiseCity Danbury DavidsonCounty ColoradoSprings Chicago Denton Appleton Bremerton Denton Denver Burbank ElMonte CorpusChristi Beaumont Austin Asheville Bloomington Davenport Carrollton Deltona Anchorage Elizabeth Chattanooga Escondido Aurora Augusta BatonRouge Chesapeake Durham Albuquerque Arvada BelAir Elkhart Champaign Anaheim CathedralCity Amarillo Cincinnati AppleValley Chandler Bridgeport Dallas BonitaSprings Bryan Brownsville Alexandria Downey CorpusChristi
-48
+Aberdeen ElPaso CorpusChristi Downey CapeCoral CorpusChristi Birmingham Boston Albany Deltona Anchorage CathedralCity Anaheim Champaign Elkhart Anchorage Birmingham Erie Cambridge Bloomington Buffalo Elizabeth Allentown Augusta Durham Chesapeake BatonRouge Detroit CostaMesa Bethlehem Beaumont Detroit Austin Asheville BatonRouge Augusta Arlington Aurora Escondido Chattanooga Boise Cincinnati Amarillo Boise Duluth Abilene Chattanooga Clarksville Davenport Carrollton Buffalo Davenport Anchorage BelAir Buffalo Columbia Canton Bradenton Clearwater Charlotte Corona Bryan Burlington Charlotte DesMoines ElkGrove Bellevue BoiseCity Brighton DavidsonCounty ChulaVista Chandler DavidsonCounty Danbury Dayton Dallas Brownsville Cleveland BoiseCity Danbury Baltimore BoiseCity Billings DaytonaBeach AppleValley DavidsonCounty ColoradoSprings Chicago Denton Bremerton Athens Appleton Chicago Bridgeport CollegeStation Boulder Bradenton Charleston Atlanta Canton Bakersfield Barnstable Boulder Clearwater Bellevue AtlanticCity Charlotte Berkeley AnnArbor Columbus Albuquerque Berkeley Arvada Antioch ElMonte Burbank CedarRapids BonitaSprings Burbank Denver Alexandria CedarRapids Cary ElPaso Akron DalyCity ClarkeCounty CoralSprings Concord Akron
+50
 Akron Akron
-Albuquerque Albuquerque Columbus
+Albuquerque Albuquerque
 Alexandria Alexandria
 Amarillo Amarillo
 Anaheim Anaheim
@@ -22,7 +22,7 @@ Bridgeport Bridgeport
 Brownsville Brownsville
 Bryan Bryan
 Canton Canton
-CorpusChristi CapeCoral CorpusChristi
+CapeCoral CapeCoral
 Carrollton Carrollton
 CathedralCity CathedralCity
 Champaign Champaign
@@ -34,6 +34,8 @@ Cincinnati Cincinnati
 Clearwater Clearwater
 ColoradoSprings ColoradoSprings
 Columbia Columbia
+Columbus Columbus
+CorpusChristi CorpusChristi
 Dallas Dallas
 DalyCity DalyCity
 Danbury Danbury

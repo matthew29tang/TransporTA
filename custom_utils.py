@@ -68,8 +68,8 @@ def output(G, path, dropoffs):
     return indexPath, indexDropoffs
 
 def smartOutput(G, path, allPairsLengths, homes):
-    #if path is None or len(dropoffs) == 0:
-    #    raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
+    if path is None or len(path) == 0:
+        raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
 
     remainingHomeSet = set(G.houses)
     collapsed = Counter()

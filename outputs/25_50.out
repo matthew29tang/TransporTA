@@ -1,6 +1,6 @@
-stop0 stop7 stop2 stop5 stop10 stop11 stop13 stop14 stop15 stop20 stop23 stop25 stop36 stop17 stop45 stop47 stop31 stop33 stop34 stop30 stop29 stop46 stop41 stop0
-23
-stop0 stop0 stop42 stop38
+stop0 location0 stop41 stop0 location8 stop31 stop0 stop36 stop27 stop0 location3 stop24 stop0 stop42 stop22 stop0 stop25 stop20 stop0 stop23 stop18 stop0 location5 stop17 stop0 stop15 stop9 stop0 stop21 stop7 stop0 stop38 stop4 stop0 stop34 stop3 location1 stop16 stop3 stop0 location7 stop1 stop46 stop29 stop1 stop33 stop45 stop1 location6 stop13 stop1 location9 stop11 stop1 location2 stop10 stop1 stop26 stop5 stop1 stop12 stop30 stop2 location4 stop19 stop2 stop47 stop8 stop2 stop14 stop6 stop2 stop1
+25
+stop0 stop0
 stop2 stop2
 stop5 stop5
 stop7 stop7
@@ -20,6 +20,8 @@ stop31 stop31
 stop33 stop33
 stop34 stop34
 stop29 stop29
+stop42 stop42
 stop46 stop46
 stop30 stop30
+stop38 stop38
 stop41 stop41
