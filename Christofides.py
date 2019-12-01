@@ -33,6 +33,7 @@ class Christofides:
         self.eulerian_tour = list(nx.eulerian_circuit(self.perfect_matching))
         self.tour_list = [u for u, v in self.eulerian_tour]# + [list(self.eulerian_tour)[-1][1]]
         self.path = self.reorganize_list(self.tour_list, self.graph.start)
+        self.hamiltonian_path = self.create_hamiltonian_path(self.path)
         return smartOutput(self.graph, self.hamiltonian_path, self.length, list(self.homes))
 
     ### Helper Functions ###
