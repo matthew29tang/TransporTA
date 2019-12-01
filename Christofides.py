@@ -19,10 +19,13 @@ class Christofides:
         self.eulerian_tour = None
         self.mst_distances = None
         self.hamiltonian_path = None
+        self.remove_nodes = []
+        self.allPairsLengths = None
 
     def solve(self):
         "*** YOUR CODE HERE ***"
-        self.length = list(nx.all_pairs_dijkstra_path_length(self.nxG))
+        self.length = dict(nx.all_pairs_dijkstra_path_length(self.nxG))
+        self.allPairsLengths = list(nx.all_pairs_dijkstra_path_length(self.nxG))
         self.mst = nx.minimum_spanning_tree(self.nxG)
         self.perfect_matching = self._compute_min_perfect_matching(self.mst)
         """
@@ -32,9 +35,20 @@ class Christofides:
         """
         self.eulerian_tour = list(nx.eulerian_circuit(self.perfect_matching))
         self.tour_list = [u for u, v in self.eulerian_tour]# + [list(self.eulerian_tour)[-1][1]]
-        self.path = self.reorganize_list(self.tour_list, self.graph.start)
-        self.hamiltonian_path = self.create_hamiltonian_path(self.path)
-        return smartOutput(self.graph, self.hamiltonian_path, self.length, list(self.homes))
+        #print("tour list", self.tour_list)
+        self.incomplete_path = self.add_back_removed_nodes(self.tour_list, self.remove_nodes)
+        #print(self.incomplete_path)
+        self.complete_path = self.reorganize_list(self.incomplete_path, self.graph.start)
+        #print(self.complete_path)
+        self.hamiltonian_path = self.create_hamiltonian_path(self.complete_path)
+        #print(self.hamiltonian_path)
+        #for i in range(len(self.hamiltonian_path) - 1):
+            #if self.nxG.has_edge(self.hamiltonian_path[i], self.hamiltonian_path[i+1]) == False:
+                #print(self.hamiltonian_path[i], self.hamiltonian_path[i+1])
+        for i in self.nxG.nodes:
+            if i not in self.hamiltonian_path:
+                print(i, "False")
+        return smartOutput(self.graph, self.hamiltonian_path, self.allPairsLengths, list(self.homes))
 
     ### Helper Functions ###
     def _compute_min_perfect_matching(self, mst):
@@ -68,11 +82,10 @@ class Christofides:
                     remove_edges[i] = j
         for key in remove_edges:
             mst.remove_edge(key, remove_edges[key])
-        remove_nodes = []
         for k in mst.nodes:
             if (len(mst.__getitem__(k)) == 0):
-                remove_nodes += [k]
-        for a in remove_nodes:
+                self.remove_nodes += [k]
+        for a in self.remove_nodes:
             mst.remove_node(a)
         return mst
 
@@ -94,6 +107,8 @@ class Christofides:
     def reorganize_list(self, list, start):
         place = 0
         result = []
+        if list[0] == list[len(list) - 1]:
+            list.pop()
         for i in range(len(list)):
             if list[i] == start:
                 place = i
@@ -102,4 +117,26 @@ class Christofides:
             result += [list[i]]
         for i in range(place):
             result += [list[i]]
-        return result + [start]
+        if result[len(result) - 1] != start:
+            return result + [start]
+        return result
+
+    def add_back_removed_nodes(self, path, nodes):
+        path = path + [path[0]]
+        nodes = np.asarray(nodes)
+        path = np.asarray(path)
+        # print(nodes)
+        # print(path)
+        for i in nodes:
+            min = float("inf")
+            ind = 0
+            for j in range(len(path) - 1):
+                total_dist = self.length[path[j]][i] + self.length[i][path[j+1]]
+                if total_dist < min:
+                    min = total_dist
+                    ind = j
+            #print("index",ind+1, "element", path[ind], "node", i)
+            path = np.insert(path, ind + 1, i)
+            path = np.delete(path, path.size - 1)
+            #print(path)
+        return path.tolist()
