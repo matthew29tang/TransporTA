@@ -3,10 +3,10 @@
 lips bangs lipstick nose eyes eyelashes boy
 bangs lipstick nose eyes eyelashes boy
 lips
-x 6 1 6 x x x
-6 x 7 x 7 x x
-1 7 x 7 1 7 x
-6 x 7 x x 8 x
-x 7 1 x x 8 x
-x x 7 8 8 x 1
-x x x x x 1 x
+0 6 1 6 999999 999999 999999
+6 0 7 999999 7 999999 999999
+1 7 0 7 1 7 999999
+6 999999 7 0 999999 8 999999
+999999 7 1 999999 0 8 999999
+999999 999999 7 8 8 0 1
+999999 999999 999999 999999 999999 1 0

@@ -50,7 +50,9 @@ class Footsteps:
     # 1) Return a dictionary F where the keys represent the edge(u,v) and values represent the frequency they are walked on.
     def feet(self):
         startIndex = self.graph.start
-        shortestPaths = nx.single_source_dijkstra_path(self.nxG, 0)
+        #shortestPaths = nx.single_source_dijkstra_path(self.nxG, self.graph.start)
+        self.mst = nx.minimum_spanning_tree(self.nxG)
+        shortestPaths = nx.single_source_dijkstra_path(self.mst, self.graph.start)
         paths = Counter() # Special dict, initializes with 0.
         for v in shortestPaths:
             path = shortestPaths[v]

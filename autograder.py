@@ -13,7 +13,7 @@ import multiprocessing
 from multiprocessing import Pool
 from multiprocessing import Array
 from multiprocessing import Manager
-MULTICORE = False
+MULTICORE = True
 num_thread = multiprocessing.cpu_count()
 VERBOSE = False
 
@@ -25,10 +25,20 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
     all_results = []
     all_baseline = []
     if not MULTICORE:
+        inputs = Manager().list()
         for input_file in input_files:
-            _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results)
+            _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results, inputs)
             i += 1
-        print("Total results: ", str(100 / 949 * sum(all_results)))
+        final_score = "Graded " + str(len(all_results)) +  " results with a score of: " + str(100 / len(all_results) * sum(all_results))
+        print(final_score)
+        a = open(str(datetime.now()).split(".")[0].replace(":","-")+".log", "w")
+        for r in all_results:
+            a.write(str(r) + "\n")
+        a.write("\n")
+        for inp in inputs:
+            a.write(str(inp) + "\n")
+        a.write(final_score)
+        a.close()
         return all_results
     else:
         print("MULTICORE IN PROCESS. DO NOT CONTROL-C.")
@@ -43,7 +53,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         results = [pool.apply_async(_outputCost, t) for t in tasks]
         pool.close()
         pool.join()
-        final_score = "Graded " + str(len(all_results)) +  " results with a score of: ", str(100 / len(all_results) * sum(all_results))
+        final_score = "Graded " + str(len(all_results)) +  " results with a score of: " + str(100 / len(all_results) * sum(all_results))
         print(final_score)
         a = open(str(datetime.now()).split(".")[0].replace(":","-")+".log", "w")
         for r in all_results:
@@ -52,6 +62,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         for inp in inputs:
             a.write(str(inp) + "\n")
         a.write(final_score)
+        a.close()
         return all_results
     pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) #Cache results
 
@@ -92,7 +103,7 @@ if __name__ == '__main__':
     else:
         input_file, output_file = args.input, args.output
         cost = ov.validate_output(input_file, output_file, verbose=VERBOSE)[1]
-        baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1], params=args.params, verbose=VERBOSE)[1]
+        baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1], verbose=VERBOSE)[1]
         if type(cost) is str:
             raise Exception("<-- CUSTOM ERROR --> Solver output is string: " + cost)
         print(cost / baselineCost)

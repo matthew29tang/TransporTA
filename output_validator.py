@@ -20,7 +20,6 @@ def validate_output(input_file, output_file, params=[], verbose=False):
     message = 'Comments about input file:\n\n' + input_message + 'Comments about output file:\n\n' + message
 
     print(message) if verbose else ""
-    print(cost)
     # Let's ignore input errors.
     #if input_error:
     #    return input_error, 'infinite', input_message + 'Since this input is invalid, you will not receive a score for its output.\n'
