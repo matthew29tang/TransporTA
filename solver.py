@@ -14,7 +14,7 @@ from Christofides import *
 # Set true for multi-core enhancement.
 import multiprocessing
 from multiprocessing import Pool
-MULTICORE = True
+MULTICORE = False
 num_thread = multiprocessing.cpu_count()
 
 """

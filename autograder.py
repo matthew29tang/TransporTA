@@ -13,7 +13,7 @@ import multiprocessing
 from multiprocessing import Pool
 from multiprocessing import Array
 from multiprocessing import Manager
-MULTICORE = True
+MULTICORE = False
 num_thread = multiprocessing.cpu_count()
 
 def validate_all_outputs(input_directory, output_directory, params=[]):
