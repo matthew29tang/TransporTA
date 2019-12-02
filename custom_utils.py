@@ -23,7 +23,8 @@ class Graph:
         #self.visualize()
 
     def visualize(self):
-        nx.draw(self.nxG, with_labels=True)
+        nx.draw(self.nxG, with_labels=True, layout=nx.spiral_layout(self.nxG, scale=4))
+        #nx.spiral_layout(self.nxG)
         plt.show()
 
     def cost(self, car_cycle, dropoff_mapping):
@@ -88,7 +89,7 @@ def smartOutput(G, path, allPairsLengths, homes):
                 s.push(v)
         path = s.list
     pathSet = set(path)
-
+    print("Final path:", path)
     dropoffs = {}
     for h in homes:
         if h in pathSet:

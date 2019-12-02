@@ -33,7 +33,8 @@ class Footsteps:
             if self.numDroppedOff == self.graph.num_houses:
                 break
             bestEdge = self._mostFootsteps(v, adjList)
-            if bestEdge is None:
+            #print("Best edge:", bestEdge)
+            if bestEdge is None or True:
                 path = self._closestHome(v)
                 bestEdge = (path[0], path[1])
             else: # Only add to traversedEdges if we use from footsteps
@@ -49,10 +50,9 @@ class Footsteps:
     ### Helper Functions ###
     # 1) Return a dictionary F where the keys represent the edge(u,v) and values represent the frequency they are walked on.
     def feet(self):
-        startIndex = self.graph.start
-        #shortestPaths = nx.single_source_dijkstra_path(self.nxG, self.graph.start)
+        shortestPaths = nx.single_source_dijkstra_path(self.nxG, self.graph.start)
         self.mst = nx.minimum_spanning_tree(self.nxG)
-        shortestPaths = nx.single_source_dijkstra_path(self.mst, self.graph.start)
+        shortestMSTPaths = nx.single_source_dijkstra_path(self.mst, self.graph.start)
         paths = Counter() # Special dict, initializes with 0.
         for v in shortestPaths:
             path = shortestPaths[v]
@@ -60,6 +60,15 @@ class Footsteps:
                 continue
             for i in range(1, len(path)):
                 paths[(path[i-1], path[i])] += 1
+                #paths[(path[i], path[i-1])] += 1
+        for v in shortestMSTPaths:
+            path = shortestMSTPaths[v]
+            if len(path) == 1 or v not in self.homes:
+                continue
+            for i in range(1, len(path)):
+                paths[(path[i-1], path[i])] += 1
+                #paths[(path[i], path[i-1])] += 1
+        #print(paths)
         return paths #self._filterFeet(paths)
 
     # 2) Remove all entries with values < 2.
@@ -84,10 +93,17 @@ class Footsteps:
     def _mostFootsteps(self, v, adjList):
         bestEdge = None
         bestEdgeWeight = 0
-        for neighbor in adjList[v]:
-            if self.footPaths[(v, neighbor)] > bestEdgeWeight and bestEdge not in self.traversedEdges:
-                bestEdge = (v, neighbor)
-                bestEdgeWeight = self.footPaths[(v, neighbor)]
+        skip = 0
+        for edge in adjList[v]:
+            #print(edge, edge in self.traversedEdges)
+            if max(self.footPaths[edge],self.footPaths[(edge[1], edge[0])]) > bestEdgeWeight and edge not in self.traversedEdges:
+                bestEdge = edge
+                bestEdgeWeight = self.footPaths[edge]
+            #print(self.footPaths)
+            elif self.footPaths[(v, edge)] > bestEdgeWeight:
+                skip += 1
+            if skip >= 1:
+                return None
         return bestEdge
 
     # Helper: Find closest path to a home from v

@@ -23,6 +23,8 @@ def validate_output(input_file, output_file, params=[], verbose=False):
     # Let's ignore input errors.
     #if input_error:
     #    return input_error, 'infinite', input_message + 'Since this input is invalid, you will not receive a score for its output.\n'
+    if type(cost) is str:
+        print("ERROR: COST IS: ", cost)
     return input_error, cost, message
 
 
