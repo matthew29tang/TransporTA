@@ -10,28 +10,29 @@ class Footsteps:
         self.G = self.graph.G
         self.nxG = self.graph.nxG
         self.homes = set(self.graph.houses)
-        self.path = []
         self.droppedOff = set()
         self.numDroppedOff = 0
+        self.homeOrder = []
         self.allPairsLengths = list(nx.all_pairs_dijkstra_path_length(self.nxG))
-
-    def solve(self):
+        
+    def solve(self, version=0):
         v = self.graph.start
-        self.path.append(v)
+        self.homeOrder.append(v)
         while self.numDroppedOff < self.graph.num_houses:
             if v in self.homes and v not in self.droppedOff:
                 self.numDroppedOff += 1
                 self.droppedOff.add(v)
+                self.homeOrder.append(v)
             if self.numDroppedOff == self.graph.num_houses:
                 break
+            v = self._closestHome(v)[1]
 
-            path = self._closestHome(v)
-            bestEdge = (path[0], path[1])
-            self.path.append(bestEdge[1])
-            v = bestEdge[1]
-        homePath = nx.dijkstra_path(self.nxG, v, self.graph.start)
-        self.path = self.path + homePath[1:]
-        return smartOutput(self.graph, self.path, self.allPairsLengths, list(self.homes))
+        if version == 2:
+            return self.homeOrder
+        newGraph, saturated = smarterOutput(self.graph, self.homeOrder, self.allPairsLengths, list(self.homes))
+        if not isinstance(newGraph, Graph):
+            return newGraph, saturated
+        return smarterOutput(self.graph, Footsteps(newGraph).solve(version=2), self.allPairsLengths, list(self.homes), version=2, saturated=saturated)
 
     # Helper: Find closest path to a home from v
     def _closestHome(self, source):

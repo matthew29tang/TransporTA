@@ -9,6 +9,8 @@ SMART = True
 class Graph:
     def __init__(self, data):
         # [number_of_locations, number_of_houses, list_of_locations, list_of_houses, starting_location, adjacency_matrix]
+        if data is None:
+            return
         self.num_locations = data[0]
         self.num_houses = data[1]
         self.locations = data[2]
@@ -21,6 +23,19 @@ class Graph:
         nparray[nparray == 'x'] = 0.0
         self.nxG = nx.from_numpy_matrix(nparray.astype(float))
         #self.visualize()
+
+    def copy(self):
+        g = Graph(None)
+        g.num_locations = self.num_locations
+        g.num_houses = self.num_houses
+        g.locations = self.locations
+        g.houses = self.houses
+        g.start = self.start
+        g.G = self.G
+        g.edge_list = self.edge_list
+        g.adjacency_list = self.adjacency_list
+        g.nxG = self.nxG
+        return g
 
     def visualize(self):
         nx.draw(self.nxG, with_labels=True, layout=nx.spiral_layout(self.nxG, scale=4))
@@ -103,6 +118,65 @@ def smartOutput(G, path, allPairsLengths, homes):
                 bestHome = v
                 bestHomeDist = shortestPaths[v]
         _dictAdd(dropoffs, bestHome, h) # Drop off person who lives at h at closest vertex on path
+    return path, dropoffs
+
+def smarterOutput(graph, homeOrder, allPairsLengths, homes, version=0, saturated=None):
+    if saturated is None:
+        saturated = set()
+    if homeOrder is None or len(homeOrder) == 0:
+        raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
+    
+    # 1) Create path
+    path = []
+    for i in range(len(homeOrder) - 1):
+        path = path + nx.dijkstra_path(graph.nxG, homeOrder[i], homeOrder[i+1])[:-1]
+    path = path + nx.dijkstra_path(graph.nxG, homeOrder[-1], graph.start)
+
+    #print(path, saturated)
+
+    newTargets = set()
+    # 2) Figure out which homes we make people walk
+    remainingHomeSet = set(graph.houses)
+    collapsed = Counter()
+    s = Stack()
+    for v in path:
+        if s.size() < 2:
+            s.push(v)
+        elif s.doublePeek() == v and collapsed[s.peek()] < 1 and s.peek() not in saturated:
+            popped = s.pop()
+            if popped in remainingHomeSet:
+                collapsed[s.peek()] += 1 # Collapse v into the previous vertex
+                saturated.add(s.peek())
+        else:
+            s.push(v)
+    path = s.list
+    pathSet = set(path)
+    
+    walking = set()
+    dropoffs = {}
+    for h in homes:
+        if h in pathSet:
+            _dictAdd(dropoffs, h, h)
+            continue
+        walking.add(h)
+        bestHome = None
+        bestHomeDist = float('inf')
+        shortestPaths = allPairsLengths[h][1]
+        for v in shortestPaths:
+            if shortestPaths[v] < bestHomeDist and v in pathSet:
+                bestHome = v
+                bestHomeDist = shortestPaths[v] 
+        _dictAdd(dropoffs, bestHome, h) # Drop off person who lives at h at closest vertex on path
+
+    #print(path, saturated, walking)
+
+    if len(walking) > 0 and version == 0:
+        newHomes = set(graph.houses).difference(walking).union(saturated)
+        newGraph = graph.copy()
+        newGraph.houses = list(newHomes)
+        newGraph.num_houses = len(newHomes)
+        return newGraph, saturated
+        
     return path, dropoffs
 
 def baselineOutput(graph):
