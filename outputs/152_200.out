@@ -1,82 +1,93 @@
-Chattanooga Cleveland NewOrleans ElPaso Dayton ElPaso CorpusChristi GrandRapids Fresno Portland JerseyCity Mobile JerseyCity Portland Fresno Bakersfield Salinas Murfreesboro Salinas Bakersfield Salinas Bakersfield BatonRouge OverlandPark Surprise Anchorage Surprise OverlandPark Scottsdale OverlandPark BatonRouge Detroit Vancouver Detroit BatonRouge OverlandPark Surprise Stockton Surprise OverlandPark Scottsdale Riverside Indianapolis FortLauderdale Tulsa Montgomery Tulsa Memphis Roseville VirginiaBeach FortWorth Roseville MorenoValley Anaheim MorenoValley Roseville Amarillo Yonkers Plano ElkGrove Mesquite Henderson MorenoValley Tallahassee Modesto Memphis Tulsa Montgomery Macon LittleRock Macon Montgomery Macon Orange Aurora Orange Frisco KansasCity Gilbert PembrokePines Gilbert PembrokePines Greensboro OuterHaven Hollywood OuterHaven Fresno Plano Dayton Plano Fresno Plano ElkGrove Savannah FortLauderdale Miami Sacramento Huntsville Tacoma Huntsville Fremont SanBernardino Boise Sunnyvale StPetersburg Sunnyvale Boise Lakewood Augusta SantaClarita Providence Palmdale FortCollins Palmdale Syracuse Irvine Norfolk Milwaukee SantaAna OklahomaCity Fontana Joliet Madison Lincoln OklahomaCity Irvine Norfolk Hayward Akron RanchoCucamonga TianamenSquare RanchoCucamonga Akron Hayward Raleigh Norfolk SaintPaul Washington Chandler Arlington Hayward Jacksonville Clarksville Denver MorenoValley Fresno GrandRapids ColoradoSprings DesMoines NewportNews Minneapolis HuntingtonBeach Jackson HuntingtonBeach Minneapolis WinstonSalem Cincinnati LongBeach Cincinnati LongBeach Cincinnati WinstonSalem Knoxville Berkeley FortWayne Bridgeport FortWayne Berkeley Springfield Spokane Lancaster Tallahassee LongBeach Waco Albuquerque Cincinnati LongBeach Chicago Naperville Garland Minneapolis NewportNews Jerusalem Peoria Corona Peoria Honolulu Miramar Honolulu SanFrancisco ElkGrove Savannah FortLauderdale NewOrleans Cleveland Chattanooga
-80
-Anaheim NewYork Anaheim
+Chattanooga Cleveland SanAntonio Memphis Wichita Fayetteville Aurora Orange Frisco KansasCity Jackson Brownsville Boston Salem Plano Fresno Corona FortWorth Roseville MorenoValley Anaheim ChulaVista Akron Hayward Raleigh Norfolk Irvine OklahomaCity Lincoln Madison Joliet SanBernardino Fremont Honolulu Huntsville Tacoma Oxnard Spokane Springfield Berkeley Knoxville WinstonSalem Cincinnati LongBeach Waco Albuquerque Orlando NewportNews DesMoines Austin Vancouver Detroit BatonRouge Bakersfield Carrollton Surprise Anchorage Phoenix Indianapolis Riverside Scottsdale Riverside Indianapolis FortLauderdale Savannah SaltLakeCity Richmond Fayetteville Aurora Lexington Baltimore Aurora Orange Henderson Toledo GardenGrove Salinas Murfreesboro Charlotte SanDiego Sunnyvale StPetersburg Clarksville Jacksonville Killeen SantaAna OklahomaCity Fontana Oceanside CapeCoral LittleRock ElPaso Denton Gilbert Tallahassee Buffalo Pomona Garland Naperville Chicago Portland Glendale SanJose Washington SaintPaul Norfolk Hayward Akron RanchoCucamonga Newark McAllen ElkGrove Plano Yonkers Durham MorenoValley Anaheim NewYork Minneapolis NewportNews Jerusalem Louisville Omaha LongBeach Cincinnati Paterson JerseyCity Mobile Midland Dayton Plano PortStLucie Miramar Honolulu Miramar Tampa Thornton Ontario TianamenSquare CorpusChristi ElPaso Chattanooga
+91
+NewYork NewYork
 Albuquerque LosAngeles
 Chicago Chicago
-Indianapolis Phoenix Indianapolis
-Memphis SanAntonio Memphis Wichita
-Sunnyvale SanDiego
-Montgomery SanJose
-Vancouver Austin Vancouver
+Phoenix Phoenix
+SanAntonio SanAntonio
+SanDiego SanDiego
+SanJose SanJose
+Austin Austin
 Jacksonville Jacksonville
 FortWorth FortWorth
-SanFrancisco SanFrancisco
-Murfreesboro Charlotte Murfreesboro
+Honolulu SanFrancisco Honolulu
+Charlotte Charlotte
+Indianapolis Indianapolis
 Washington Washington
-Bridgeport Boston
+Boston Boston
 ElPaso ElPaso
-Hollywood Louisville
-Aurora Baltimore Aurora Lexington Fayetteville
+Memphis Memphis
+Louisville Louisville
+Baltimore Baltimore
 KansasCity KansasCity
 Raleigh Raleigh
+Wichita Wichita
 Cleveland Cleveland
-Bakersfield Bakersfield Oceanside
-Honolulu Honolulu
+Bakersfield Bakersfield
+Aurora Aurora
+Anaheim Anaheim
 SantaAna SantaAna
 Riverside Riverside
+Lexington Lexington
 Henderson Henderson
 SaintPaul SaintPaul
-Cincinnati Cincinnati Paterson
-Anchorage Anchorage Midland
+Cincinnati Cincinnati
+Anchorage Anchorage
 Plano Plano
 Lincoln Lincoln
-PembrokePines Orlando Salem
-Irvine Irvine
-RanchoCucamonga Newark
-StPetersburg Toledo
-Roseville Durham
-Arlington ChulaVista
+Orlando Orlando
+Irvine Irvine Syracuse
+Newark Newark
+Toledo Toledo
+Durham Durham
+ChulaVista ChulaVista
 Madison Madison
-JerseyCity Buffalo
+Buffalo Buffalo
 Corona Lubbock Corona
 Scottsdale Scottsdale Tempe
-VirginiaBeach Glendale
+Glendale Glendale
 Fremont Fremont
-Boise Boise
-Stockton Richmond
+SanBernardino Boise SanBernardino
+Richmond Richmond
 BatonRouge BatonRouge
 Spokane Spokane
 DesMoines DesMoines
-Tacoma Tacoma Oxnard
-SanBernardino SanBernardino
+Tacoma Tacoma
 Fontana Fontana
-SantaClarita SantaClarita
-GrandRapids GrandRapids
+Hayward SantaClarita Hayward
+Oxnard Oxnard
+Fayetteville Fayetteville
+Fresno GrandRapids Worcester
 Yonkers Yonkers
 Akron Akron
-LittleRock LittleRock CapeCoral Shreveport
-Miramar PortStLucie
+LittleRock LittleRock Shreveport
+PortStLucie PortStLucie
 LongBeach GrandPrairie
 Tallahassee Tallahassee
+CapeCoral CapeCoral
 Frisco Frisco
 Knoxville Knoxville
-Fresno Worcester
-Jackson Brownsville Jackson
+Brownsville Brownsville
+Vancouver Vancouver
 FortLauderdale FortLauderdale
-TianamenSquare Ontario
+Ontario Ontario
 NewportNews NewportNews Alexandria
-Salinas GardenGrove
+Oceanside Oceanside
+Salem Salem
+GardenGrove GardenGrove
 Springfield Springfield
-Hayward Hayward
-FortCollins Pomona
+Jackson Jackson
+Pomona Pomona
 Naperville Naperville
 Joliet Joliet
 Savannah Savannah
-ElkGrove McAllen
-Syracuse Syracuse
+Paterson Paterson
+McAllen McAllen
+Midland Midland
 Berkeley Berkeley
+Murfreesboro Murfreesboro
 Mobile Olathe
 Orange Orange
-Gilbert Denton
+Denton Denton
 Waco Waco
 Surprise Surprise

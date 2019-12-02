@@ -1,5 +1,5 @@
-Fizz Anivia Beastmaster CentaurWarrunner ShadowDemon Hecarim Volibear Kindred Shen TahmKench Hecarim Pantheon DeathProphet Timbersaw Ashe WitchDoctor ShadowDemon Pugna DragonKnight Magnus CentaurWarrunner Orianna LeBlanc ShadowFiend Necrophos Darius Tristana Vayne Darius Ziggs TreantProtector Ashe Maokai Chen Malzahar ChaosKnight Taric Io Spectre EarthSpirit Tailyah VelKoz Evelynn Tailyah Xayah Malzahar Ashe AncientApparition Maokai Kled Orianna Clinkz QueenofPain Orianna Bane Huskar Warlock Ahri Undying Warlock Viktor Illaoi Jinx Nunu Kassadin NaturesProphet Fiora Ivern OutworldDevourer Syndra Razor Swain Kassadin Razor Nunu Orianna Beastmaster FacelessVoid ChoGath TrollWarlord Xerath Elise Techies Xerath FacelessVoid Thresh Jayce Karma Illaoi Viktor JarvanIV Janna Lina Weaver Invoker Udyr Weaver Thresh Jayce Sona Alchemist Talon Necrophos Ezreal PhantomAssassin Sona DrowRanger Tusk Zeus Ekko Thresh FacelessVoid DrMundo Riki Singed Shen Rengar Teemo Sivir ArcWarden LoneDruid Cassiopeia SpiritBreaker Ivern Corki Lucian Cassiopeia Brewmaster Lifestealer EmberSpirit Venomancer Phoenix Rumble Tryndamere Doom SpiritBreaker CrystalMaiden Sniper Heimerdinger Azir Clockwerk Heimerdinger Annie Sniper Oracle Brand Leona Kayn Irelia Ryze Nami Kayn Vi LoneDruid Zilean Morgana Medusa Camille Fiddlesticks SkywrathMage Galio DarkSeer Lulu Jakiro Mirana KhaZix Nautilus Draven Morphling Veigar Nautilus AncientApparition Slardar Sven Soraka Zed Amumu Soraka Twitch Meepo ShadowShaman Urgot Trundle Nocturne Windranger Twitch Silencer Omniknight WinterWyvern Soraka Zed DarkSeer Nasus Silencer Tidehunter Akali Dazzle Mirana Wukong Camille Bloodseeker Fiddlesticks BountyHunter Medusa LoneDruid Bard Rammus ArcWarden Enigma TwistedFate Sivir Tiny Pudge Puck Aatrox Bard Vi Malphite Gragas Katarina KogMaw Leshrac Malphite MasterYi Gragas Slark Rubick Anivia Quinn NightStalker Poppy Quinn Vladimir Kennen Nidalee Katarina Anivia Earthshaker Fizz
-87
+Fizz Bane Orianna Kled Xayah Slark Trundle ShadowDemon CentaurWarrunner Magnus Jinx Nunu Syndra Venomancer BountyHunter Fiddlesticks VelKoz Warlock Huskar TrollWarlord Kayn Irelia Ryze Jayce Thresh FacelessVoid Beastmaster NightStalker Quinn KhaZix Mirana Medusa LoneDruid Cassiopeia SpiritBreaker Puck Tristana Brewmaster Techies Zilean Sniper Oracle Undying Janna JarvanIV Pantheon DeathProphet Katarina Nidalee Kennen Vladimir Rubick Rumble Zed StormSpirit Amumu Gragas Terrorblade Talon Tiny Lucian Chen Visage Timbersaw LeBlanc ShadowFiend Annie Heimerdinger Azir Rengar Leona Sona Yorick Nasus Viktor Ziggs Morphling WinterWyvern Omniknight Vi ShadowShaman Kassadin Ekko Slardar Sven Weaver Singed TahmKench Karma DrMundo Fizz
+89
 BountyHunter BountyHunter
 Talon Talon
 Medusa Medusa
@@ -7,7 +7,7 @@ Rengar Rengar
 Techies Techies
 ShadowFiend ShadowFiend
 WinterWyvern WinterWyvern
-Malzahar Terrorblade Visage
+Terrorblade Terrorblade
 Nasus Nasus
 Fizz Fizz
 Mirana Mirana
@@ -21,6 +21,7 @@ Sona Sona
 Venomancer Venomancer
 Nunu Nunu
 Annie Annie
+Visage Visage
 Lucian Lucian
 Jayce Jayce
 Warlock Warlock
@@ -38,7 +39,7 @@ Weaver Weaver
 Sniper Sniper
 Sven Sven
 Vladimir Vladimir
-Slark Yorick Slark
+Yorick Yorick
 Ziggs Ziggs
 SpiritBreaker SpiritBreaker
 KhaZix KhaZix
@@ -54,7 +55,7 @@ NightStalker NightStalker
 Azir Azir
 Omniknight Omniknight
 Kayn Kayn
-Io StormSpirit
+StormSpirit StormSpirit
 Orianna Orianna
 Zilean Zilean
 Brewmaster Brewmaster
@@ -71,6 +72,7 @@ Quinn Quinn
 Irelia Irelia
 Rubick Rubick
 Zed Zed
+Slark Slark
 CentaurWarrunner CentaurWarrunner
 Fiddlesticks Fiddlesticks
 LoneDruid LoneDruid

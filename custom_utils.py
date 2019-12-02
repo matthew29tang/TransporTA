@@ -89,7 +89,7 @@ def smartOutput(G, path, allPairsLengths, homes):
                 s.push(v)
         path = s.list
     pathSet = set(path)
-    print("Final path:", path)
+    #print("Final path:", path)
     dropoffs = {}
     for h in homes:
         if h in pathSet:

@@ -1,7 +1,7 @@
-Monroe Marina Austin Fullerton Dayton Duluth Aurora Fresno Four Canton Layton Aurora Vista Independence Gainesville Kenosha Denton Hayward Hemet Gainesville Aurora Clarksville Monroe Berkeley Moreno Two Melbourne Lacey Chicago Bloomington Elizabeth Irving Bakersfield ElkGrove Evansville Nine Akron Davidson Evansville ElkGrove Bryan Monterey Six Gastonia Chesapeake Baton Columbus Carrollton Asheville Fairfield Fremont Escondido Miami Corpus Escondido Asheville Chesapeake Gastonia Bakersfield Mobile Appleton Lacey Elizabeth Corona Bloomington Houston Corona Kansas Jackson Columbia Gilbert Modesto Murfreesboro Arlington Rapids Downey Escondido Bridgeport Kailua Lansing Abilene Charleston Billings Laredo Charleston Johnson Barnstable Plen Inglewood Myrtle Jefferson Burlington One Johnson Abilene Bridgeport Arlington Houston Atlanta Burbank Joliet Durham Hollywood Fullerton Bradenton Denver Kennewick Eleven Denver Atlantic Eleven Augusta Aribel Chattanooga Gulfport Huntsville Cleveland Gulfport Madison Brownsville Corpus Daly Cambridge Albany Champaign Milwaukee Dallas Modesto Mesa Hialeah Bethlehem Brighton Bremerton Bedford Chula Alexandria Amarillo Glendale Hartford Hickory GreenBay Murrieta ElkGrove Anaheim Louisville Ten Kissimmee Charlotte Jacksonville Ten Lakeland Grays Aberdeen LA Albuquerque Ten Hickory GreenBay Bedford Bremerton Baltimore Kenosha Flint Frederick Augusta Macon Honolulu Kenosha Bremerton Cary CSprings Plen Brighton Hialeah Milwaukee Albany Boise Aribel Naperville Fitchburg Julian Burbank Memphis Concord Eight Concord Naperville Havre Marysville Fayetteville Apple Anchorage Minneapolis Marysville Viejo Lincoln Lorain Boulder Cathedral Elkhart Cathedral Lancaster Leominster Lorain Vegas Marysville Viejo Hesperia McAllen Greenville Jersey Harrisburg Greenville Greensboro Collins Five Medford Hagerstown LA Irvine Hagerstown Irvine Clarke Lakewood Danbury Muskegon Seven Lauderdale Modesto Hampton ElPaso Prairie Hampton Two Montgomery Merced Moreno Montgomery Detroit Durham Chandler Berkeley Duluth Muskegon CSprings Lewisville Allentown Memphis Naples CSprings Monroe
-91
-Eight Athens
-Hagerstown Hagerstown Antioch
+Monroe Clarksville Lancaster Havre Aberdeen Lowell Cambridge Albany Boise Merced Montgomery Detroit Three Boulder Lacey Melbourne Julian Cleveland Erie Elkhart Huntington Hickory Hartford Glendale Amarillo Mesquite Burlington Dayton Elizabeth Irving Fairfield Asheville Chesapeake Manchester Cary Dallas Modesto Hampton Prairie Denton Hayward Lakeland Ten Jacksonville Anaheim Hialeah Mesa Carrollton Charleston Johnson Corpus Miami Allentown Lewisville Kennewick Denver Bradenton Akron Laredo Seven Kissimmee Canton Layton Brownsville Hesperia Clarke Killeen Baltimore Kenosha Gainesville Vista Greensboro Apple Fayetteville Davidson Rapids Arlington Bridgeport Abilene Four Monterey Antioch Hagerstown Leominster Mobile Birmingham Viejo Naples Bedford Anchorage Daytona Muskegon Austin Baton Gilbert Bethlehem Lafayette Athens Kailua Huntsville Monroe
+100
+Athens Athens
+Hagerstown Hagerstown
 Lancaster Lancaster
 Asheville Asheville
 Clarke Clarke
@@ -14,14 +14,14 @@ Bridgeport Bridgeport
 Ten Ten
 Apple Apple
 Johnson Johnson
-Amarillo Birmingham Amarillo Mesquite
+Birmingham Birmingham
 Kenosha Kenosha
 Corpus Corpus
-Aberdeen Lowell Aberdeen
+Lowell Lowell
 Clarksville Clarksville
-Elkhart Huntington Elkhart Erie
+Huntington Huntington
 Viejo Viejo
-Hickory Lafayette Hickory
+Lafayette Lafayette
 Abilene Abilene
 Hialeah Hialeah
 Austin Austin
@@ -40,11 +40,13 @@ Glendale Glendale
 Prairie Prairie
 Charleston Charleston
 Baltimore Baltimore
+Antioch Antioch
 Kennewick Kennewick
 Detroit Detroit
 Mobile Mobile
 Lacey Lacey
 Albany Albany
+Elkhart Elkhart
 Lakeland Lakeland
 Dallas Dallas
 Baton Baton
@@ -58,23 +60,27 @@ Denton Denton
 Miami Miami
 Havre Havre
 Hampton Hampton
-Chesapeake Chesapeake Manchester
+Chesapeake Chesapeake
 Hayward Hayward
+Hickory Hickory
 Layton Layton
 Jacksonville Jacksonville
+Amarillo Amarillo
 Huntsville Huntsville
 Hesperia Hesperia
 Fayetteville Fayetteville
-Cathedral Killeen
+Killeen Killeen
 Arlington Arlington
 Cambridge Cambridge
 Boise Boise
 Akron Akron
 Greensboro Greensboro
+Aberdeen Aberdeen
 Mesa Mesa
 Denver Denver
 Kailua Kailua
 Elizabeth Elizabeth
+Erie Erie
 Dayton Dayton
 Hartford Hartford
 Muskegon Muskegon
@@ -82,12 +88,15 @@ Vista Vista
 Fairfield Fairfield
 Montgomery Montgomery
 Allentown Allentown
-Louisville Three
+Three Three
 Merced Merced
-Anchorage Daytona Anchorage
+Daytona Daytona
 Brownsville Brownsville
+Anchorage Anchorage
 Rapids Rapids
 Irving Irving
 Burlington Burlington
+Manchester Manchester
 Bradenton Bradenton
+Mesquite Mesquite
 Julian Julian
