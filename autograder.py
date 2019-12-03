@@ -24,6 +24,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
     i = 0
     all_results = []
     all_baseline = []
+    all_baseline = pickle.load(open("baselineCosts.p", "rb"))
     if not MULTICORE:
         inputs = Manager().list()
         for input_file in input_files:
@@ -64,7 +65,7 @@ def validate_all_outputs(input_directory, output_directory, params=[]):
         a.write(final_score)
         a.close()
         return all_results
-    pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) #Cache results
+    #pickle.dump(all_baseline, open( "baselineCosts.p", "wb" )) #Cache results
 
 def _outputCost(input_file, output_files, output_directory, all_baseline, i, all_results, inputs=[]):
     output_file = utils.input_to_output(input_file, output_directory).replace("\\", "/")
@@ -73,9 +74,9 @@ def _outputCost(input_file, output_files, output_directory, all_baseline, i, all
         results = (None, None, f'No corresponding .out file for {input_file}')
     else:
         cost = ov.validate_output(input_file, output_file, verbose=VERBOSE)[1]
-        baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1])[1]
-        # baselineCost = all_baseline[i]
-        all_baseline.append(baselineCost)
+        #baselineCost = ov.validate_output(input_file, "./baseline_outputs/" + output_file.split("/")[-1])[1]
+        baselineCost = all_baseline[i]
+        #all_baseline.append(baselineCost)
         if type(cost) is str:
             raise Exception("<-- CUSTOM ERROR --> Solver output is string: " + cost)
         results = cost / baselineCost
