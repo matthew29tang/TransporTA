@@ -120,6 +120,7 @@ def smartOutput(G, path, allPairsLengths, homes):
         _dictAdd(dropoffs, bestHome, h) # Drop off person who lives at h at closest vertex on path
     return path, dropoffs
 
+
 def smarterOutput(graph, homeOrder, allPairsLengths, homes, version=0, saturated=None):
     if saturated is None:
         saturated = set()

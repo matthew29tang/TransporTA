@@ -47,3 +47,54 @@ class Deprecated:
             if skip >= 1:
                 return None
         return bestEdge
+
+def smarterOutputOld(graph, homeOrder, allPairsLengths, homes, version=0, saturated=set()):
+    if homeOrder is None or len(homeOrder) == 0:
+        raise Exception("<-- CUSTOM ERROR --> Invalid smart solver output.")
+    
+    # 1) Create path
+    path = []
+    for i in range(len(homeOrder) - 1):
+        path = path + nx.dijkstra_path(graph.nxG, homeOrder[i], homeOrder[i+1])[:-1]
+    path = path + nx.dijkstra_path(graph.nxG, homeOrder[-1], graph.start)
+
+    # 2) Figure out which homes we make people walk
+    walking = set()
+    remainingHomeSet = set(graph.houses)
+    collapsed = Counter()
+    s = Stack()
+    for v in path:
+        if s.size() < 2:
+            s.push(v)
+        elif s.doublePeek() == v and collapsed[s.peek()] < 1 and s.peek():
+            popped = s.pop()
+            if popped in remainingHomeSet:
+                collapsed[s.peek()] += 1 # Collapse v into the previous vertex
+                walking.add(s.peek())
+        else:
+            s.push(v)
+    path = s.list
+    pathSet = set(path)
+    
+    
+    if len(walking) > 0 and version == 0:
+        newHomes = set(graph.houses).difference(walking) #- set(graph.houses).intersection(walking)
+        newGraph = graph.copy()
+        newGraph.houses = list(newHomes)
+        newGraph.num_houses = len(newHomes)
+        return newGraph, set()
+
+    dropoffs = {}
+    for h in homes:
+        if h in pathSet:
+            _dictAdd(dropoffs, h, h)
+            continue
+        bestHome = None
+        bestHomeDist = float('inf')
+        shortestPaths = allPairsLengths[h][1]
+        for v in shortestPaths:
+            if shortestPaths[v] < bestHomeDist and v in pathSet:
+                bestHome = v
+                bestHomeDist = shortestPaths[v]
+        _dictAdd(dropoffs, bestHome, h) # Drop off person who lives at h at closest vertex on path
+    return path, dropoffs
