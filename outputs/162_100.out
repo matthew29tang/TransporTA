@@ -1,12 +1,12 @@
-CorpusChristi Birmingham Erie Davenport Clarksville Chattanooga Boise Cincinnati Amarillo Boise Duluth Abilene Chattanooga Escondido Aurora Arlington Augusta Beaumont Detroit CostaMesa Bethlehem Detroit Austin Asheville BatonRouge Chesapeake BatonRouge Augusta Allentown Chandler ChulaVista DavidsonCounty Danbury Dayton Dallas Bridgeport Chicago Denton Bremerton Appleton Chicago ColoradoSprings DavidsonCounty Danbury BoiseCity Cleveland BoiseCity DaytonaBeach Billings BoiseCity Danbury Baltimore BoiseCity Bellevue Clearwater Charlotte Corona Bryan CollegeStation Boulder Clearwater Bradenton AnnArbor Berkeley Charlotte Columbus Albuquerque Berkeley Arvada Antioch Boulder Barnstable Clearwater Bellevue AtlanticCity Clearwater Bakersfield Canton Bradenton Atlanta Canton Columbia Buffalo Elizabeth Carrollton Buffalo Bloomington Cambridge Boston Albany Deltona Anchorage CathedralCity Anaheim Champaign Elkhart Anchorage BelAir Buffalo Davenport Anchorage Birmingham ElPaso Akron Aberdeen CoralSprings ClarkeCounty DalyCity Akron Concord BonitaSprings CedarRapids Burbank Alexandria CedarRapids Cary ElPaso CorpusChristi
-47
+CorpusChristi ElPaso ElMonte Burbank CedarRapids BonitaSprings Burbank Denver Alexandria CedarRapids Cary ElPaso Akron Aberdeen CoralSprings ClarkeCounty DalyCity Akron Concord Bryan Corona Charlotte Clearwater Boulder Burlington Charlotte DesMoines Barnstable Boulder Antioch Arvada Berkeley AnnArbor Columbus Albuquerque Berkeley Charlotte Clearwater Bellevue BoiseCity DaytonaBeach Billings BoiseCity Cleveland Brownsville Baltimore BoiseCity Danbury DavidsonCounty ColoradoSprings Chicago Denton Bremerton Athens ColoradoSprings DavidsonCounty Brighton Danbury Dayton Dallas Danbury AppleValley DavidsonCounty ChulaVista Chandler AtlanticCity Bellevue Clearwater Bradenton Atlanta Canton Columbia Buffalo Carrollton Canton Bradenton Buffalo Davenport Birmingham Erie Cambridge Bloomington Buffalo Davenport Clarksville Chattanooga Boise Duluth Cincinnati Amarillo Boise Chattanooga Escondido Aurora Arlington Augusta BatonRouge Chesapeake BatonRouge Beaumont Detroit CostaMesa Bethlehem Detroit Austin Asheville BatonRouge Augusta Allentown Barnstable Boulder BelAir Anchorage CathedralCity Anaheim Champaign Elkhart Anchorage Deltona Albany Boston Davenport Anchorage Birmingham CorpusChristi
+46
 Akron Akron
 Albuquerque Albuquerque
 Alexandria Alexandria
 Amarillo Amarillo
 Anaheim Anaheim
-DavidsonCounty AppleValley
-Appleton Appleton
+AppleValley AppleValley
+Chicago Appleton Bridgeport Chicago
 Arvada Arvada
 Asheville Asheville
 Augusta Augusta
@@ -18,8 +18,7 @@ BoiseCity BoiseCity
 BonitaSprings BonitaSprings
 Boulder Boulder
 Bremerton Bremerton
-Bridgeport Bridgeport
-Cleveland Brownsville
+Brownsville Brownsville
 Bryan Bryan
 Canton Canton
 CorpusChristi CapeCoral CorpusChristi Downey
@@ -29,7 +28,6 @@ Champaign Champaign
 Chandler Chandler
 Bradenton Charleston
 Chattanooga Chattanooga
-Chicago Chicago
 Cincinnati Cincinnati
 Clearwater Clearwater
 ColoradoSprings ColoradoSprings
@@ -41,9 +39,10 @@ Danbury Danbury
 Davenport Davenport
 Deltona Deltona
 Denton Denton
-Burbank Denver ElMonte
+Denver Denver
 Chesapeake Durham
+ElMonte ElMonte
 ElPaso ElPaso
-Elizabeth Elizabeth
+Buffalo Elizabeth
 Elkhart Elkhart
 Escondido Escondido

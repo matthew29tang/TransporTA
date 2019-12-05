@@ -1,4 +1,4 @@
-SaintPaul Garland Newark Scottsdale Honolulu Memphis Louisville Irving Anaheim Arlington Wichita Seattle VirginiaBeach StPetersburg Milwaukee Columbus Glendale Hialeah Glendale Columbus Milwaukee StPetersburg Cincinnati ChulaVista Baltimore Mesa Baltimore Albuquerque BatonRouge Albuquerque Baltimore LongBeach Greensboro Dallas LongBeach Baltimore Albuquerque FortWayne Albuquerque Baltimore Mesa Pittsburgh SantaAna Durham Phoenix Charlotte ChulaVista SanDiego ColoradoSprings NorthLasVegas SanDiego ChulaVista JerseyCity Richmond Minneapolis Lincoln JerseyCity Toledo Atlanta LasVegas Austin ElPaso LosAngeles Austin LosAngeles Plano Fresno KansasCity NewOrleans Detroit Tucson Detroit Denver Norfolk KansasCity Miami Omaha Miami KansasCity Fresno Lexington JerseyCity ChulaVista Charlotte Irvine Fremont Irvine Buffalo Oakland Philadelphia SanFrancisco Stockton Houston Newark Garland Portland Orlando Boston Wichita Seattle Anaheim Irving Louisville Newark Garland SaintPaul
+SaintPaul Garland Newark Scottsdale Honolulu Cleveland Columbus Glendale Hialeah Glendale Columbus Milwaukee StPetersburg Cincinnati ChulaVista SanDiego ColoradoSprings NorthLasVegas SanDiego ChulaVista JerseyCity Richmond Minneapolis Bakersfield LosAngeles Austin LosAngeles Plano Fresno KansasCity Miami Omaha Miami KansasCity Norfolk Denver Detroit Tucson Detroit Plano LosAngeles Plano Fresno Lexington JerseyCity Toledo JerseyCity Toledo Atlanta LasVegas Indianapolis Mesa Baltimore LongBeach Greensboro Dallas LongBeach Baltimore Albuquerque FortWayne Albuquerque BatonRouge Albuquerque Baltimore ChulaVista Charlotte Irvine Fremont Irvine Buffalo Oakland Philadelphia SanFrancisco Stockton Houston Chesapeake Gilbert Durham SantaAna Durham Phoenix Charlotte ChulaVista Cincinnati StPetersburg VirginiaBeach Seattle Anaheim Irving Louisville Irving Anaheim Arlington Wichita Seattle Anaheim Irving Louisville Memphis Honolulu Scottsdale Newark Garland SaintPaul
 40
 Houston Houston
 Phoenix Phoenix
@@ -8,9 +8,9 @@ Dallas Dallas
 BatonRouge FortWorth
 Columbus Columbus
 Charlotte Charlotte
-Mesa Indianapolis
+Indianapolis Indianapolis
 Denver Denver
-ElPaso ElPaso
+LosAngeles ElPaso
 Memphis Memphis
 Hialeah OklahomaCity Hialeah
 Baltimore Baltimore
@@ -19,19 +19,18 @@ Tucson Tucson Raleigh
 Atlanta Atlanta
 LongBeach LongBeach
 Toledo Tampa
-NewOrleans NewOrleans
-Minneapolis Bakersfield
+KansasCity NewOrleans
+Bakersfield Bakersfield
 Omaha Aurora
 Honolulu Honolulu
-SantaAna SantaAna
+SantaAna SantaAna Pittsburgh
 Lexington Lexington
 Stockton Stockton
 StPetersburg Henderson StPetersburg Lubbock
 Cincinnati Cincinnati
-Pittsburgh Pittsburgh
 FortWayne Anchorage FortWayne
 Plano Plano
-Lincoln Lincoln
+Minneapolis Lincoln
 Newark Newark
 Durham Durham WinstonSalem
 JerseyCity JerseyCity Laredo
@@ -39,4 +38,5 @@ Louisville Madison
 Fremont Chandler
 Scottsdale Scottsdale
 Glendale Glendale
-Fresno Chesapeake Spokane
+Chesapeake Chesapeake
+Fresno Spokane

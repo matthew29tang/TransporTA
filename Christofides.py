@@ -45,9 +45,9 @@ class Christofides:
         #for i in range(len(self.hamiltonian_path) - 1):
             #if self.nxG.has_edge(self.hamiltonian_path[i], self.hamiltonian_path[i+1]) == False:
                 #print(self.hamiltonian_path[i], self.hamiltonian_path[i+1])
-        for i in self.nxG.nodes:
-            if i not in self.hamiltonian_path:
-                print(i, "False")
+        #for i in self.nxG.nodes:
+            #if i not in self.hamiltonian_path:
+                #print(i, "False")
         return smartOutput(self.graph, self.hamiltonian_path, self.allPairsLengths, list(self.homes))
 
     ### Helper Functions ###
@@ -87,6 +87,10 @@ class Christofides:
                 self.remove_nodes += [k]
         for a in self.remove_nodes:
             mst.remove_node(a)
+        self.remove_nodes = []
+        for b in self.remove_nodes:
+            if b in self.homes:
+                self.remove_nodes += [b]
         return mst
 
     def create_hamiltonian_path(self, path):

@@ -9,7 +9,7 @@ from student_utils import *
 import input_validator
 
 
-def validate_output(input_file, output_file, params=[], verbose=False):
+def validate_output(input_file, output_file, params=[], verbose=True):
     print('Processing', input_file, output_file) if verbose else ""
 
     input_data = utils.read_file(input_file)

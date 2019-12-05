@@ -1,11 +1,11 @@
-Monroe Marina Austin Fullerton Dayton Duluth Aurora Fresno Four Canton Layton Aurora Vista Independence Gainesville Kenosha Denton Hayward Hemet Gainesville Aurora Clarksville Monroe Berkeley Moreno Two Melbourne Lacey Chicago Bloomington Elizabeth Irving Bakersfield ElkGrove Evansville Nine Akron Davidson Evansville ElkGrove Bryan Monterey Six Gastonia Chesapeake Baton Columbus Carrollton Asheville Fairfield Fremont Escondido Miami Corpus Escondido Asheville Chesapeake Gastonia Bakersfield Mobile Appleton Lacey Elizabeth Corona Bloomington Houston Corona Kansas Jackson Columbia Gilbert Modesto Murfreesboro Arlington Rapids Downey Escondido Bridgeport Kailua Lansing Abilene Charleston Billings Laredo Charleston Johnson Barnstable Plen Inglewood Myrtle Jefferson Burlington One Johnson Abilene Bridgeport Arlington Houston Atlanta Burbank Joliet Durham Hollywood Fullerton Bradenton Denver Kennewick Eleven Denver Atlantic Eleven Augusta Aribel Chattanooga Gulfport Huntsville Cleveland Gulfport Madison Brownsville Corpus Daly Cambridge Albany Champaign Milwaukee Dallas Modesto Mesa Hialeah Bethlehem Brighton Bremerton Bedford Chula Alexandria Amarillo Glendale Hartford Hickory GreenBay Murrieta ElkGrove Anaheim Louisville Ten Kissimmee Charlotte Jacksonville Ten Lakeland Grays Aberdeen LA Albuquerque Ten Hickory GreenBay Bedford Bremerton Baltimore Kenosha Flint Frederick Augusta Macon Honolulu Kenosha Bremerton Cary CSprings Plen Brighton Hialeah Milwaukee Albany Boise Aribel Naperville Fitchburg Julian Burbank Memphis Concord Eight Concord Naperville Havre Marysville Fayetteville Apple Anchorage Minneapolis Marysville Viejo Lincoln Lorain Boulder Cathedral Elkhart Cathedral Lancaster Leominster Lorain Vegas Marysville Viejo Hesperia McAllen Greenville Jersey Harrisburg Greenville Greensboro Collins Five Medford Hagerstown LA Irvine Hagerstown Irvine Clarke Lakewood Danbury Muskegon Seven Lauderdale Modesto Hampton ElPaso Prairie Hampton Two Montgomery Merced Moreno Montgomery Detroit Durham Chandler Berkeley Duluth Muskegon CSprings Lewisville Allentown Memphis Naples CSprings Monroe
-91
-Eight Athens
-Hagerstown Hagerstown Antioch
+Monroe CSprings Lewisville Allentown Chandler Berkeley Duluth Muskegon CSprings Monroe Berkeley Moreno Two Melbourne Lacey Elizabeth Irving Bakersfield Gastonia Six Gastonia Chesapeake Fairfield Asheville Escondido Fremont Corpus Miami Escondido Fremont Baton Columbus Carrollton Asheville Chesapeake Manchester Cary Buffalo Mobile Bakersfield ElkGrove Evansville Nine Akron Davidson Evansville ElkGrove Bonita Frederick Flint Kenosha Baltimore Bremerton Bedford Chula Alexandria GreenBay Murrieta Lafayette Hickory Hartford Glendale Amarillo Kissimmee Charlotte Jacksonville Ten Louisville Boston Anaheim Louisville Ten Lakeland Grays Aberdeen LA Albuquerque Ten Hickory GreenBay Bedford Bremerton Brighton Plen Marina Macon Honolulu Kenosha Bremerton Cary Gulfport Bethlehem Brighton Hialeah Mesa Milwaukee Dallas Daytona Inglewood Myrtle Jefferson Burlington One Johnson Lansing Abilene Kailua Bridgeport Abilene Charleston Barnstable Johnson Charleston Laredo Billings Modesto Murfreesboro Arlington Rapids Downey Escondido Bridgeport Arlington Houston Atlanta Boise Albany Cambridge Daly Albany Champaign Milwaukee Hialeah Killeen Cathedral Elkhart Lancaster Cathedral Boulder Lorain Viejo Lincoln Lorain Vegas Marysville Viejo Hesperia McAllen Greenville Greensboro Collins Five Harrisburg Jersey Greenville McAllen Hesperia Clarke Lakewood Danbury Indianapolis Clarke Irvine Medford Hagerstown Antioch LA Irvine Hagerstown Fayetteville Apple Anchorage Minneapolis Marysville Havre Naperville Fitchburg Julian Naperville Concord Eight Athens Bakersfield Memphis Concord Naperville Aribel Augusta Eleven Denver Bradenton Kennewick Denver Atlantic Eleven Evansville Chattanooga Aribel Boise Madison Brownsville Gulfport Huntsville Cleveland Gulfport Madison Boise Atlanta Burbank Joliet Durham Hollywood Birmingham Houston Corona Kansas Jackson Columbia Gilbert Dallas Bloomington Elizabeth Lacey Laredo ElPaso Prairie Hampton Two Seven Lauderdale Modesto Hampton Two Montgomery Merced Moreno Montgomery Detroit Burlington Marina Austin Fullerton Dayton Duluth Aurora Independence Gainesville Vista Aurora Layton Canton Four Fresno Henderson Canton Leominster Hampton Denton Hayward Hemet Gainesville Aurora Clarksville Monroe
+96
+Athens Athens
+Hagerstown Hagerstown
 Lancaster Lancaster
 Asheville Asheville
 Clarke Clarke
-Monterey Monterey
+Six Monterey
 Laredo Laredo
 Carrollton Carrollton
 Modesto Modesto
@@ -14,18 +14,18 @@ Bridgeport Bridgeport
 Ten Ten
 Apple Apple
 Johnson Johnson
-Amarillo Birmingham Amarillo Mesquite
+Birmingham Birmingham
 Kenosha Kenosha
 Corpus Corpus
 Aberdeen Lowell Aberdeen
 Clarksville Clarksville
 Elkhart Huntington Elkhart Erie
 Viejo Viejo
-Hickory Lafayette Hickory
+Lafayette Lafayette
 Abilene Abilene
 Hialeah Hialeah
 Austin Austin
-Naples Naples
+CSprings Naples
 Anaheim Anaheim
 Seven Seven
 Melbourne Melbourne
@@ -40,6 +40,7 @@ Glendale Glendale
 Prairie Prairie
 Charleston Charleston
 Baltimore Baltimore
+Antioch Antioch
 Kennewick Kennewick
 Detroit Detroit
 Mobile Mobile
@@ -58,14 +59,16 @@ Denton Denton
 Miami Miami
 Havre Havre
 Hampton Hampton
-Chesapeake Chesapeake Manchester
+Chesapeake Chesapeake
 Hayward Hayward
+Hickory Hickory
 Layton Layton
 Jacksonville Jacksonville
+Amarillo Amarillo Mesquite
 Huntsville Huntsville
 Hesperia Hesperia
 Fayetteville Fayetteville
-Cathedral Killeen
+Killeen Killeen
 Arlington Arlington
 Cambridge Cambridge
 Boise Boise
@@ -84,10 +87,12 @@ Montgomery Montgomery
 Allentown Allentown
 Louisville Three
 Merced Merced
-Anchorage Daytona Anchorage
+Daytona Daytona
 Brownsville Brownsville
+Anchorage Anchorage
 Rapids Rapids
 Irving Irving
 Burlington Burlington
+Manchester Manchester
 Bradenton Bradenton
 Julian Julian
