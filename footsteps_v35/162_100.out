@@ -1,7 +1,7 @@
-CorpusChristi Downey ElPaso Akron DalyCity Canton Charleston Columbia Clearwater Boulder BoiseCity Danbury DavidsonCounty ColoradoSprings Chicago Denton Appleton Bremerton Denton Denver Burbank ElMonte CorpusChristi Beaumont Austin Asheville Bloomington Davenport Carrollton Deltona Anchorage Elizabeth Chattanooga Escondido Aurora Augusta BatonRouge Chesapeake Durham Albuquerque Arvada BelAir Elkhart Champaign Anaheim CathedralCity Amarillo Cincinnati AppleValley Chandler Bridgeport Dallas BonitaSprings Bryan Brownsville Alexandria Downey CorpusChristi
-48
+CorpusChristi ElPaso Akron DalyCity Canton Charleston Columbia Clearwater Boulder BoiseCity Danbury DavidsonCounty ColoradoSprings Chicago Denton Appleton Bremerton Denton Denver Burbank ElMonte CorpusChristi Beaumont Austin Asheville Bloomington Davenport Carrollton Deltona Anchorage Elizabeth Chattanooga Escondido Aurora Augusta BatonRouge Chesapeake Durham Dallas Bridgeport BonitaSprings Burbank AppleValley Amarillo Cincinnati Bryan Brownsville Buffalo BelAir Elkhart Champaign Anaheim CathedralCity Arvada Chandler Alexandria Downey CorpusChristi
+47
 Akron Akron
-Albuquerque Albuquerque Columbus
+Durham Albuquerque Durham
 Alexandria Alexandria
 Amarillo Amarillo
 Anaheim Anaheim
@@ -11,7 +11,7 @@ Arvada Arvada
 Asheville Asheville
 Augusta Augusta
 Austin Austin
-Beaumont Beaumont
+Beaumont Beaumont Columbus
 BelAir BelAir
 Bloomington Bloomington
 BoiseCity BoiseCity
@@ -42,7 +42,6 @@ Deltona Deltona
 Denton Denton
 Denver Denver
 Downey Downey
-Durham Durham
 ElMonte ElMonte
 ElPaso ElPaso
 Elizabeth Elizabeth

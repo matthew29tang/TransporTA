@@ -1,5 +1,5 @@
-YuhuaEast Sennett SerangoonGarden SingaporeRiver ChinaSquare SerangoonNorth TagoreSindo Punggol Matilda Geylang ChengSan BoonLayPlace LowerSeletar PearlsHill Sentosa TelokBlangahRise KampongUbi Brickworks Serangoon Trafalgar OneTreeHill SembawangStraits Shipyard PasirRisPark BedokSouth ClarkeQuay HongKah UpperThomson BedokNorth IstanaNegara ClementiWest JurongWestCentral OneNorth Anson AngMoKioTownCentre SungeiRoad WaterwayEast Chatsworth TuasNorthPioneer WestCoast SouthernIslands HongKahNorth KeatHong Dunearn UluPandan YioChuKangEast PulauPunggolTimor ReservoirView EvertonPark ClementiNorth PasirRisDrive TohGuan PayaLebarEast Museum GeylangEast MountEmily KebunBahru Tampines BenoiSector Moulmein Northland WoodlandsWest BukitBatokSouth PasirPanjang2 SerangoonCentral Khatib SimpangNorth Paterson HougangCentral Saujana BoatQuay Aljunied YioChuKang PeoplesPark BayfrontSubzone SungeiKadut ChoaChuKang Kembangan JooSengPayaLebar JurongPort PeiChun DairyFarm PangSua Mountbatten RochorCanal Boulevard TampinesNorth Sembawang EastCoast ChangiPoint Cairnhill WoodlandsSouth Port BukitTimah Tanglin TuasPromenade PunggolField SeletarHills MonksHill MandaiEast DhobyGhaut Queensway ChangiWest PotongPasir YuhuaEast
-89
+YuhuaEast Sennett SerangoonGarden SingaporeRiver ChinaSquare SerangoonNorth TagoreSindo Punggol Matilda Geylang ChengSan BoonLayPlace LowerSeletar PearlsHill Sentosa TelokBlangahRise KampongUbi Brickworks Serangoon Trafalgar OneTreeHill SembawangStraits Shipyard PasirRisPark BedokSouth ClarkeQuay HongKah UpperThomson BedokNorth IstanaNegara ClementiWest JurongWestCentral OneNorth Anson AngMoKioTownCentre ChangiPoint Yunnan SenokoWest JooSengPayaLebar JurongPort PeiChun DairyFarm PangSua Mountbatten Northland WoodlandsWest BukitBatokSouth PasirPanjang2 SerangoonCentral Khatib SimpangNorth Paterson PulauPunggolTimor ReservoirView EvertonPark ClementiNorth PasirRisDrive TohGuan PayaLebarEast Museum GeylangEast MountEmily KebunBahru Tampines SouthernIslands WestCoast TuasNorthPioneer LoyangEast Kembangan Saujana HougangCentral DefuIndustrialPark ChoaChuKang Aljunied YioChuKang PeoplesPark BayfrontSubzone SungeiKadut BenoiSector KeatHong Dunearn UluPandan YioChuKangEast Moulmein Tanglin TuasPromenade PunggolField Cairnhill WoodlandsSouth Port RochorCanal Boulevard TampinesNorth Sembawang EastCoast NatureReserve ChangiWest TanglinHalt MandaiEast DhobyGhaut YuhuaEast
+86
 Sentosa Sentosa
 BedokNorth BedokNorth
 SungeiKadut SungeiKadut
@@ -15,15 +15,15 @@ Dunearn SembawangHills
 OneNorth OneNorth
 EastCoast EastCoast
 Moulmein Moulmein
-BoatQuay BoatQuay
+Saujana BoatQuay Saujana
 PeoplesPark PeoplesPark OrangeGrove
 MandaiEast MandaiEast
 TuasPromenade TuasBay TuasPromenade TiongBahru
-Chatsworth InstitutionHill KentRidge Chatsworth Commonwealth
+TuasNorthPioneer InstitutionHill TuasNorthPioneer Chatsworth
 BoonLayPlace BoonLayPlace
 JurongWestCentral JurongWestCentral
 TagoreSindo TagoreSindo
-WaterwayEast WaterwayEast
+WestCoast WaterwayEast KentRidge Commonwealth
 SimpangNorth SimpangNorth AlexandraNorth
 Kembangan Kembangan
 Paterson Paterson
@@ -39,7 +39,6 @@ SerangoonGarden SerangoonGarden
 DairyFarm DairyFarm
 KebunBahru KebunBahru
 PasirRisDrive PasirRisDrive
-TuasNorthPioneer TuasNorthPioneer
 Khatib Khatib
 HongKah HongKah
 BukitBatokSouth BukitBatokSouth
@@ -64,14 +63,13 @@ ReservoirView ReservoirView
 TohGuan TohGuan
 ChengSan PasirRis Mandai
 SembawangStraits SembawangStraits
-SouthernIslands SouthernIslands
-HougangCentral DefuIndustrialPark HougangCentral
+SouthernIslands SouthernIslands HongKahNorth
+DefuIndustrialPark DefuIndustrialPark
 RochorCanal RochorCanal
 ClementiNorth ClementiNorth
 Tanglin Tanglin
 WoodlandsWest WoodlandsWest
-Saujana Saujana
-SungeiRoad SungeiRoad
+PangSua SungeiRoad PangSua
 GeylangEast GeylangEast
 TampinesNorth TampinesNorth
 UluPandan UluPandan
@@ -80,7 +78,6 @@ PeiChun PeiChun
 Brickworks Brickworks
 ChangiPoint ChangiPoint
 TelokBlangahRise TelokBlangahRise
-HongKahNorth HongKahNorth
 BenoiSector BenoiSector
 Northland Northland
 UpperThomson UpperThomson
@@ -88,4 +85,4 @@ YioChuKangEast YioChuKangEast
 Cairnhill Cairnhill
 EvertonPark EvertonPark
 IstanaNegara IstanaNegara
-PangSua PangSua
+HougangCentral HougangCentral
