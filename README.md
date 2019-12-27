@@ -23,7 +23,7 @@ Footsteps v4: 39.019
 
 Christofides v1: 60.780
 
-Final superscore: 
+Final superscore: 38.74 (Top 22% on leaderboard)
 
 ## Instructions:
 * Footsteps is the default solver. To switch to Christofides, uncomment out and return the solve call in `solver.py`
